@@ -1,6 +1,6 @@
-# Développeur backend junior
+# Développeur backend junior — IHM & IA
 
-Ingénieur en informatique spécialisé en Interaction Homme Machine, je recherche un premier emploi en développement backend à partir du 1er septembre 2026. Mes expériences m'ont permis de travailler avec Java, Python et Node JS, ainsi que d'intégrer des fonctionnalités d'IA dans des applications. Je souhaite mettre à profit ma bonne expertise en IA et en automatisation de processus métiers pour développer des solutions fiables et adaptées aux besoins des utilisateurs.
+Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je conçois des services back-end (Node.js, Java, Python) robustes qui exposent et fiabilisent des traitements IA en production. Mon stage chez Nextsourcia m'a permis de construire des architectures événementielles et des pipelines IA exploités par de vrais utilisateurs métier. Disponible à partir du 1er septembre 2026.
 
 ## Profil
 
@@ -114,29 +114,22 @@ Ingénieur en informatique spécialisé en Interaction Homme Machine, je recherc
 
 **Mai 2025 - Août 2025 (3 mois)**
 
-**Contexte :** Stage au Vietnam
+**Contexte :** Stage au Vietnam, en autonomie sur un sujet IA de bout en bout.
 
 **Projet :** Système prédictif d'alerte incendie par IA.
 
 **Missions :**
 
-- Analyse de données pour un système prédictif d'alerte incendie
-- Entraînement de modèles d'IA et création de tableaux de bord
+- Analyse de données et entraînement de modèles d'IA (Random Forest) pour la prédiction de départs de feu
+- Création de tableaux de bord de suivi des prédictions
 
-**Environnement technique :** Python, React, Randomn Forest
+**Environnement technique :** Python, React, Random Forest
 
 ### Projet académique - Jeu de Tron
 
 **Janvier 2025 - Avril 2025 (3 mois)**
 
-**Contexte :** Projet académique réalisé en équipe.
-
-**Projet :** Jeu de Tron multijoueur.
-
-**Missions :**
-
-- Développement des modes local, contre IA et en ligne
-- Implémentation de la gamification et déploiement sur AWS
+**Projet :** Jeu de Tron multijoueur en équipe, avec modes local, IA et en ligne, gamification et déploiement sur AWS.
 
 **Environnement technique :** HTML, CSS, JavaScript, AWS
 
@@ -144,10 +137,7 @@ Ingénieur en informatique spécialisé en Interaction Homme Machine, je recherc
 
 **Janvier 2025 - Aujourd'hui (1 an 6 mois)**
 
-**Missions :**
-
-- Implémentation des fonctionnalités de jeu en ligne
-- Développement des outils de gestion des cartes, personnages et histoires
+**Projet :** Outils de gestion des cartes, personnages et histoires, avec fonctionnalités de jeu en ligne.
 
 **Environnement technique :** HTML, CSS, JavaScript, Svelte
 
@@ -155,7 +145,4 @@ Ingénieur en informatique spécialisé en Interaction Homme Machine, je recherc
 
 **Juillet 2022 et Juillet 2024 (missions saisonnières)**
 
-**Missions :**
-
-- Entretien des espaces verts du village
-- Maintenance du fort Kléber
+Entretien des espaces verts du village et maintenance du fort Kléber.
