@@ -50,10 +50,6 @@
   grid-template-columns: 1fr;
 }
 
-:root[data-layout="single"] dl {
-  grid-template-columns: 1fr;
-}
-
 :root[data-layout="single"] section[aria-labelledby="experiences"] {
   grid-template-columns: 1fr;
 }
@@ -74,10 +70,6 @@
   grid-column: 1;
   text-align: left;
   white-space: normal;
-}
-
-:root[data-layout="single"] .profile-header {
-  grid-template-columns: 1fr;
 }
 
 :root[data-style="minimal"] {
