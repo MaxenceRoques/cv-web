@@ -50,11 +50,6 @@
   grid-template-columns: 1fr;
 }
 
-:root[data-layout="single"] section[aria-labelledby="diplomes"],
-:root[data-layout="single"] section[aria-labelledby="langues"] {
-  grid-column: 1 / -1;
-}
-
 :root[data-layout="single"] article {
   grid-template-columns: 1fr;
 }
