@@ -46,19 +46,13 @@
   --header-decoration: linear-gradient(90deg, #f2f4f8 0 12px, #ffffff 12px);
 }
 
-:root[data-layout="single"] main {
-  grid-template-columns: 1fr;
-}
-
 :root[data-layout="single"] section[aria-labelledby="experiences"] {
   grid-template-columns: 1fr;
 }
 
-:root[data-layout="single"] section,
-:root[data-layout="single"] section[aria-labelledby="competences"],
-:root[data-layout="single"] section[aria-labelledby="experiences"],
-:root[data-layout="single"] section[aria-labelledby="experiences"] > h2 {
-  grid-column: 1;
+:root[data-layout="single"] section[aria-labelledby="diplomes"],
+:root[data-layout="single"] section[aria-labelledby="langues"] {
+  grid-column: 1 / -1;
 }
 
 :root[data-layout="single"] article {
