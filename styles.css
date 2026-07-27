@@ -755,10 +755,6 @@ article li {
     page-break-after: avoid;
   }
 
-  :root[data-layout="single"] body {
-    zoom: 0.66;
-  }
-
   :root[data-layout="single"] header {
     padding: 16px 42px 12px;
   }
