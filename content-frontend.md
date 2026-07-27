@@ -1,6 +1,6 @@
-# Développeur frontend junior
+# Développeur frontend junior — IHM & IA
 
-Ingénieur en informatique spécialisé en Interaction Homme Machine, je recherche un premier emploi en développement frontend à partir du 1er septembre 2026. Mes expériences en JavaScript, React, Svelte, HTML et CSS s'appuient sur une approche centrée utilisateur, la conduite d'entretiens et le développement orienté accessibilité. Ma bonne expertise en IA et en automatisation de processus métiers me permet également d'intégrer ces technologies dans des interfaces utiles et adaptées aux besoins des utilisateurs.
+Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je conçois des interfaces (React, Svelte, HTML/CSS) pensées à partir d'entretiens utilisateurs et de tests d'accessibilité, capables d'exposer des fonctionnalités IA de façon lisible. Mon stage chez Nextsourcia m'a confirmé ce que j'aime : transformer des besoins utilisateurs réels en interfaces utilisables. Disponible à partir du 1er septembre 2026.
 
 ## Profil
 
@@ -114,29 +114,22 @@ Ingénieur en informatique spécialisé en Interaction Homme Machine, je recherc
 
 **Mai 2025 - Août 2025 (3 mois)**
 
-**Contexte :** Stage au Vietnam.
+**Contexte :** Stage au Vietnam, en autonomie sur un sujet IA de bout en bout.
 
 **Projet :** Système prédictif d'alerte incendie par IA.
 
 **Missions :**
 
 - Création de dashboards pour le suivi des résultats
-- Analyse de données et entraînement de modèles d'IA
+- Analyse de données et entraînement de modèles d'IA (Random Forest)
 
-**Environnement technique :** Python, React, Randomn Forest
+**Environnement technique :** Python, React, Random Forest
 
 ### Projet académique - Jeu de Tron
 
 **Janvier 2025 - Avril 2025 (3 mois)**
 
-**Contexte :** Projet académique réalisé en équipe.
-
-**Projet :** Jeu de Tron multijoueur.
-
-**Missions :**
-
-- Développement des modes local, contre IA et en ligne
-- Création des interfaces, de la gamification et déploiement sur AWS
+**Projet :** Jeu de Tron multijoueur en équipe, avec modes local, IA et en ligne, interfaces, gamification et déploiement sur AWS.
 
 **Environnement technique :** HTML, CSS, JavaScript, AWS
 
@@ -144,10 +137,7 @@ Ingénieur en informatique spécialisé en Interaction Homme Machine, je recherc
 
 **Janvier 2025 - Aujourd'hui (1 an 6 mois)**
 
-**Missions :**
-
-- Conception d'interfaces de création de cartes, personnages et histoires
-- Développement des outils de gestion et des fonctionnalités de jeu en ligne
+**Projet :** Interfaces de création de cartes, personnages et histoires, avec outils de gestion et fonctionnalités de jeu en ligne.
 
 **Environnement technique :** HTML, CSS, JavaScript, Svelte
 
@@ -155,7 +145,4 @@ Ingénieur en informatique spécialisé en Interaction Homme Machine, je recherc
 
 **Juillet 2022 et Juillet 2024 (missions saisonnières)**
 
-**Missions :**
-
-- Entretien des espaces verts du village
-- Maintenance du fort Kléber
+Entretien des espaces verts du village et maintenance du fort Kléber.
