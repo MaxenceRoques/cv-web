@@ -760,7 +760,7 @@ article li {
   }
 
   :root[data-layout="single"] main {
-    gap: 10px 42px;
+    gap: 15px 42px;
     padding: 14px 42px 18px;
   }
 
