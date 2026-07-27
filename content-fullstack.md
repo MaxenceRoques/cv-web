@@ -1,6 +1,6 @@
-# Développeur fullstack junior
+# Développeur fullstack junior — IHM & IA
 
-Ingénieur en informatique spécialisé en Interaction Homme Machine, je recherche un premier emploi en développement fullstack à partir du 1er septembre 2026. Mes expériences m'ont permis de développer des fonctionnalités front-end avec React et Angular, des fonctionnalités back-end avec Node JS et d'intégrer des services d'IA. Ma bonne expertise en IA et en automatisation de processus métiers complète un profil polyvalent, attentif aux besoins des utilisateurs et capable d'intervenir sur différentes parties d'une application.
+Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je conçois des produits fullstack (React, Angular, Node.js) qui intègrent de l'IA de bout en bout, de l'entraînement de modèles à l'orchestration en production. Mon stage chez Nextsourcia m'a confirmé ce que j'aime : construire des interfaces exploitables pour des utilisateurs réels, pas seulement des fonctionnalités. Disponible à partir du 1er septembre 2026.
 
 ## Profil
 
@@ -88,7 +88,7 @@ Ingénieur en informatique spécialisé en Interaction Homme Machine, je recherc
 
 - Conception d'un dashboard temps réel avec widgets, WebSocket, Kafka et Redis
 - Mise en place du cycle de vie des configurations IA : versionnement, déploiement, rollback et projections locales
-- Développement d'un AI Lab orchestré par n8n avec traitements Mistral Batch, benchmarks et juges
+- Développement d'un AI Lab orchestré par n8n avec traitements Mistral Batch, benchmarks et juges pour fiabiliser les réponses IA avant mise en production
 - Fiabilisation des enrichissements documentaires, du scoring candidat-opportunité et du feedback utilisateur
 
 **Environnement technique :** React, Node.js, Mistral AI, n8n, WebSocket, Kafka, Redis, Zod
@@ -114,29 +114,22 @@ Ingénieur en informatique spécialisé en Interaction Homme Machine, je recherc
 
 **Mai 2025 - Août 2025 (4 mois)**
 
-**Contexte :** Stage au Vietnam.
+**Contexte :** Stage au Vietnam, en autonomie sur un sujet IA de bout en bout.
 
 **Projet :** Système prédictif d'alerte incendie par IA.
 
 **Missions :**
 
-- Analyse de données pour un système prédictif d'alerte incendie
-- Entraînement de modèles d'IA et création de tableaux de bord
+- Analyse de données et entraînement de modèles d'IA (Random Forest) pour la prédiction de départs de feu
+- Création de tableaux de bord de suivi des prédictions
 
-**Environnement technique :** Python, React, Randomn Forest
+**Environnement technique :** Python, React, Random Forest
 
 ### Projet académique - Jeu de Tron
 
 **Janvier 2025 - Avril 2025 (3 mois)**
 
-**Contexte :** Projet académique réalisé en équipe.
-
-**Projet :** Jeu de Tron multijoueur.
-
-**Missions :**
-
-- Développement des modes local, contre IA et en ligne
-- Création d'une liste d'amis, de la gamification et déploiement sur AWS
+**Projet :** Jeu de Tron multijoueur en équipe, avec modes local, IA et en ligne, système d'amis et gamification, déployé sur AWS.
 
 **Environnement technique :** HTML, CSS, JavaScript, AWS
 
@@ -144,10 +137,7 @@ Ingénieur en informatique spécialisé en Interaction Homme Machine, je recherc
 
 **Janvier 2025 - Aujourd'hui (1 an 6 mois)**
 
-**Missions :**
-
-- Développement d'outils de création de cartes, personnages et histoires
-- Conception des interfaces et des fonctionnalités de jeu en ligne
+**Projet :** Outils de création de cartes, personnages et histoires, avec interfaces et fonctionnalités de jeu en ligne.
 
 **Environnement technique :** HTML, CSS, JavaScript, Svelte
 
@@ -155,7 +145,4 @@ Ingénieur en informatique spécialisé en Interaction Homme Machine, je recherc
 
 **Juillet 2022 et Juillet 2024 (missions saisonnières)**
 
-**Missions :**
-
-- Entretien des espaces verts du village
-- Maintenance du fort Kléber
+Entretien des espaces verts du village et maintenance du fort Kléber.
