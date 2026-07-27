@@ -769,7 +769,7 @@ article li {
   }
 
   :root[data-layout="single"] section[aria-labelledby="experiences"] {
-    gap: 7px;
+    gap: 10px;
   }
 
   :root[data-layout="single"] article {
