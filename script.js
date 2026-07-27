@@ -12,6 +12,11 @@ const STYLES = Object.freeze({
   minimal: "Minimal",
 });
 
+const LAYOUTS = Object.freeze({
+  multi: "Multi-colonnes",
+  single: "Une colonne (ATS)",
+});
+
 const SECTION_ORDER = Object.freeze({
   competences: 1,
   experiences: 2,
@@ -29,6 +34,7 @@ const PROFILE_LABELS = Object.freeze({
 
 const profileSelect = document.querySelector("#profile-select");
 const styleSelect = document.querySelector("#style-select");
+const layoutSelect = document.querySelector("#layout-select");
 const pdfExportButton = document.querySelector("#pdf-export-button");
 const presentation = document.querySelector("#presentation");
 const personName = document.querySelector("#person-name");
@@ -306,13 +312,28 @@ function styleFromUrl() {
   return Object.hasOwn(STYLES, requested) ? requested : "tech";
 }
 
+function layoutFromUrl() {
+  const requested = new URLSearchParams(window.location.search).get("layout");
+  return Object.hasOwn(LAYOUTS, requested) ? requested : "multi";
+}
+
 function applyStyle(style) {
   const safeStyle = Object.hasOwn(STYLES, style) ? style : "tech";
   document.documentElement.dataset.style = safeStyle;
   styleSelect.value = safeStyle;
 }
 
-function updateUrl({ profile = profileSelect.value, style = styleSelect.value }) {
+function applyLayout(layout) {
+  const safeLayout = Object.hasOwn(LAYOUTS, layout) ? layout : "multi";
+  document.documentElement.dataset.layout = safeLayout;
+  layoutSelect.value = safeLayout;
+}
+
+function updateUrl({
+  profile = profileSelect.value,
+  style = styleSelect.value,
+  layout = layoutSelect.value,
+}) {
   const url = new URL(window.location.href);
 
   if (profile === "fullstack") {
@@ -327,7 +348,13 @@ function updateUrl({ profile = profileSelect.value, style = styleSelect.value })
     url.searchParams.set("style", style);
   }
 
-  window.history.pushState({ profile, style }, "", url);
+  if (layout === "multi") {
+    url.searchParams.delete("layout");
+  } else {
+    url.searchParams.set("layout", layout);
+  }
+
+  window.history.pushState({ profile, style, layout }, "", url);
 }
 
 async function loadProfile(profile) {
@@ -382,6 +409,11 @@ styleSelect.addEventListener("change", () => {
   updateUrl({ style: styleSelect.value });
 });
 
+layoutSelect.addEventListener("change", () => {
+  applyLayout(layoutSelect.value);
+  updateUrl({ layout: layoutSelect.value });
+});
+
 pdfExportButton.addEventListener("click", () => {
   const profile = Object.hasOwn(PROFILES, profileSelect.value)
     ? profileSelect.value
@@ -389,11 +421,15 @@ pdfExportButton.addEventListener("click", () => {
   const style = Object.hasOwn(STYLES, styleSelect.value)
     ? styleSelect.value
     : "tech";
-  const parameters = new URLSearchParams({ profil: profile, style });
+  const layout = Object.hasOwn(LAYOUTS, layoutSelect.value)
+    ? layoutSelect.value
+    : "multi";
+  const parameters = new URLSearchParams({ profil: profile, style, layout });
   const downloadLink = document.createElement("a");
+  const layoutSuffix = layout === "single" ? "-ats" : "";
 
   downloadLink.href = `/api/pdf?${parameters.toString()}`;
-  downloadLink.download = `cv-maxence-${profile}-${style}.pdf`;
+  downloadLink.download = `cv-maxence-${profile}-${style}${layoutSuffix}.pdf`;
   document.body.append(downloadLink);
   downloadLink.click();
   downloadLink.remove();
@@ -401,8 +437,10 @@ pdfExportButton.addEventListener("click", () => {
 
 window.addEventListener("popstate", () => {
   applyStyle(styleFromUrl());
+  applyLayout(layoutFromUrl());
   loadProfile(profileFromUrl());
 });
 
 applyStyle(styleFromUrl());
+applyLayout(layoutFromUrl());
 loadProfile(profileFromUrl());
