@@ -135,5 +135,3 @@ Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je co
 - Système d'amis, gamification, mode local, IA et en ligne.
 
 **Environnement technique :** HTML, CSS, JavaScript, AWS
-
-Entretien des espaces verts du village et maintenance du fort Kléber.
