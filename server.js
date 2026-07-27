@@ -11,6 +11,7 @@ const PORT = Number(process.env.PORT) || 3000;
 
 const PROFILES = new Set(["backend", "frontend", "fullstack"]);
 const STYLES = new Set(["tech", "elegant", "ocean", "executive", "minimal"]);
+const LAYOUTS = new Set(["multi", "single"]);
 const PUBLIC_FILES = new Set([
   "index.html",
   "styles.css",
@@ -46,7 +47,7 @@ function getBrowser() {
   return browserPromise;
 }
 
-async function generatePdf(profile, style) {
+async function generatePdf(profile, style, layout) {
   const browser = await getBrowser();
   const context = await browser.newContext();
 
@@ -56,6 +57,7 @@ async function generatePdf(profile, style) {
 
     if (profile !== "fullstack") parameters.set("profil", profile);
     if (style !== "tech") parameters.set("style", style);
+    if (layout !== "multi") parameters.set("layout", layout);
 
     const pageUrl =
       `http://127.0.0.1:${PORT}/index.html` +
@@ -119,14 +121,17 @@ const server = createServer(async (request, response) => {
   if (requestUrl.pathname === "/api/pdf") {
     const requestedProfile = requestUrl.searchParams.get("profil");
     const requestedStyle = requestUrl.searchParams.get("style");
+    const requestedLayout = requestUrl.searchParams.get("layout");
     const profile = PROFILES.has(requestedProfile)
       ? requestedProfile
       : "fullstack";
     const style = STYLES.has(requestedStyle) ? requestedStyle : "tech";
+    const layout = LAYOUTS.has(requestedLayout) ? requestedLayout : "multi";
 
     try {
-      const pdf = await generatePdf(profile, style);
-      const filename = `cv-maxence-${profile}-${style}.pdf`;
+      const pdf = await generatePdf(profile, style, layout);
+      const layoutSuffix = layout === "single" ? "-ats" : "";
+      const filename = `cv-maxence-${profile}-${style}${layoutSuffix}.pdf`;
 
       response.writeHead(200, {
         "Content-Type": "application/pdf",
