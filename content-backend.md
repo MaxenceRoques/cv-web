@@ -132,17 +132,3 @@ Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je co
 **Projet :** Jeu de Tron multijoueur en équipe, avec modes local, IA et en ligne, gamification et déploiement sur AWS.
 
 **Environnement technique :** HTML, CSS, JavaScript, AWS
-
-### Projet personnel - Gestion de jeu de rôle
-
-**Janvier 2025 - Aujourd'hui (1 an 6 mois)**
-
-**Projet :** Outils de gestion des cartes, personnages et histoires, avec fonctionnalités de jeu en ligne.
-
-**Environnement technique :** HTML, CSS, JavaScript, Svelte
-
-### Agent saisonnier espaces verts - Mairie de Wolfisheim
-
-**Juillet 2022 et Juillet 2024 (missions saisonnières)**
-
-Entretien des espaces verts du village et maintenance du fort Kléber.
