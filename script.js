@@ -21,8 +21,8 @@ const SECTION_ORDER = Object.freeze({
   competences: 1,
   experiences: 2,
   diplomes: 3,
-  "centres-d-interet": 4,
-  langues: 5,
+  langues: 4,
+  "centres-d-interet": 5,
   "informations-complementaires": 6,
 });
 
