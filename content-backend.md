@@ -80,9 +80,9 @@ Ingénieur en informatique spécialisé en Interaction Homme Machine, je recherc
 
 **Mars 2026 - Juillet 2026 (5 mois)**
 
-**Contexte :** Industrialisation d'une plateforme métier multi-applications intégrant l'IA.
+**Contexte :** Stage de fin d’études chez Nextsourcia
 
-**Projet :** Gouvernance des configurations IA, traitements documentaires et automatisation des évaluations.
+**Projet :** Plateforme SaaS dédiée aux RH et au recrutement, réunissant gestion opérationnelle, back-office, pilotage et assistance par IA.
 
 **Missions :**
 
@@ -95,25 +95,26 @@ Ingénieur en informatique spécialisé en Interaction Homme Machine, je recherc
 
 ### Projet d'ingénierie - Polytech Nice Sophia
 
-** Octobre 2025 - Fevrier 2026 (5 mois)**
+**Octobre 2025 - Février 2026 (5 mois)**
 
-**Contexte :** Projet en équipe pour Université Côte d'Azur.
+**Contexte :** Projet en équipe pour la plateforme GECOS d'Université Côte d'Azur.
 
-**Projet :** Service de supervision et de routage des alertes GTB.
+**Projet :** Service de synthèse et de routage multicanal des alertes GTB.
 
 **Missions :**
 
-- Conception d'une architecture à plugins suivant une approche Domain-Driven Design
-- Traitement et persistance des alertes avec InfluxDB, Flux et SQLite
-- Monitoring avec Telegraf et routage vers Kanboard, Slack, Teams et Vonage
+- Recueil des besoins auprès des services techniques
+- Conception d'un monolithe modulaire à plugins suivant une approche Domain-Driven Design
+- Réception, synthèse et persistance des alertes issues d'InfluxDB avec Flux et SQLite
+- Routage résilient vers Kanboard, Slack, Teams et Vonage avec backoff, mise en attente et canal de secours supervisé par Telegraf
 
-**Environnement technique :** InfluxDB, Flux, SQLite, Telegraf, Docker, API Kanboard, Slack, Microsoft Teams, Vonage
+**Environnement technique :** InfluxDB, Flux, SQLite, Telegraf, Docker, API Kanboard, Slack, Teams, Vonage
 
-### Stage développement IA - Entreprise au Vietnam
+### Stage développement IA - DNIIT
 
 **Mai 2025 - Août 2025 (3 mois)**
 
-**Contexte :** Stage dans une entreprise technologique au Vietnam.
+**Contexte :** Stage au Vietnam
 
 **Projet :** Système prédictif d'alerte incendie par IA.
 
@@ -122,7 +123,7 @@ Ingénieur en informatique spécialisé en Interaction Homme Machine, je recherc
 - Analyse de données pour un système prédictif d'alerte incendie
 - Entraînement de modèles d'IA et création de tableaux de bord
 
-**Environnement technique :** Python, React
+**Environnement technique :** Python, React, Randomn Forest
 
 ### Projet académique - Jeu de Tron
 
@@ -143,10 +144,6 @@ Ingénieur en informatique spécialisé en Interaction Homme Machine, je recherc
 
 **Janvier 2025 - Aujourd'hui (1 an 6 mois)**
 
-**Contexte :** Projet personnel de développement web.
-
-**Projet :** Plateforme de gestion et de jeu de rôle en ligne.
-
 **Missions :**
 
 - Implémentation des fonctionnalités de jeu en ligne
@@ -157,10 +154,6 @@ Ingénieur en informatique spécialisé en Interaction Homme Machine, je recherc
 ### Agent saisonnier espaces verts - Mairie de Wolfisheim
 
 **Juillet 2022 et Juillet 2024 (missions saisonnières)**
-
-**Contexte :** Service technique de la mairie.
-
-**Projet :** Entretien des espaces verts et du fort Kléber.
 
 **Missions :**
 

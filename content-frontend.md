@@ -80,9 +80,9 @@ Ingénieur en informatique spécialisé en Interaction Homme Machine, je recherc
 
 **Mars 2026 - Juillet 2026 (5 mois)**
 
-**Contexte :** Industrialisation d'une plateforme métier multi-applications intégrant l'IA.
+**Contexte :** Stage de fin d’études chez Nextsourcia
 
-**Projet :** Interfaces d'observabilité, d'administration des configurations IA et de feedback utilisateur.
+**Projet :** Plateforme SaaS dédiée aux RH et au recrutement, réunissant gestion opérationnelle, back-office, pilotage et assistance par IA.
 
 **Missions :**
 
@@ -95,25 +95,26 @@ Ingénieur en informatique spécialisé en Interaction Homme Machine, je recherc
 
 ### Projet d'ingénierie - Polytech Nice Sophia
 
-** Octobre 2025 - Fevrier 2026 (5 mois)**
+**Octobre 2025 - Février 2026 (5 mois)**
 
-**Contexte :** Projet en équipe pour Université Côte d'Azur.
+**Contexte :** Projet en équipe pour la plateforme GECOS d'Université Côte d'Azur.
 
-**Projet :** Interface de supervision des alertes GTB.
+**Projet :** Interface métier de supervision et de suivi du cycle de vie des alertes GTB.
 
 **Missions :**
 
-- Conduite d'entretiens avec les utilisateurs finaux
-- Développement de six plugins PHP pour adapter l'interface Kanboard
-- Amélioration de la navigation, des filtres et des priorités à partir des retours
+- Benchmark de solutions open source et évaluation de Plane, Kanboard et Alerta avec les utilisateurs finaux
+- Conception d'un protocole de tests IHM centré sur les pratiques des services techniques
+- Développement de six plugins PHP pour adapter Kanboard : filtres simplifiés, édition rapide, vue modale, priorités et thème GECOS
+- Itérations sur la navigation et la lisibilité après une seconde phase d'entretiens utilisateurs
 
 **Environnement technique :** PHP, Kanboard, HTML, CSS, JavaScript, Docker, tests utilisateurs
 
-### Stage développement IA - Entreprise au Vietnam
+### Stage développement IA - DNIIT
 
 **Mai 2025 - Août 2025 (3 mois)**
 
-**Contexte :** Stage dans une entreprise technologique au Vietnam.
+**Contexte :** Stage au Vietnam.
 
 **Projet :** Système prédictif d'alerte incendie par IA.
 
@@ -122,7 +123,7 @@ Ingénieur en informatique spécialisé en Interaction Homme Machine, je recherc
 - Création de dashboards pour le suivi des résultats
 - Analyse de données et entraînement de modèles d'IA
 
-**Environnement technique :** Python, React
+**Environnement technique :** Python, React, Randomn Forest
 
 ### Projet académique - Jeu de Tron
 
@@ -143,10 +144,6 @@ Ingénieur en informatique spécialisé en Interaction Homme Machine, je recherc
 
 **Janvier 2025 - Aujourd'hui (1 an 6 mois)**
 
-**Contexte :** Projet personnel de développement web.
-
-**Projet :** Plateforme de gestion et de jeu de rôle en ligne.
-
 **Missions :**
 
 - Conception d'interfaces de création de cartes, personnages et histoires
@@ -157,10 +154,6 @@ Ingénieur en informatique spécialisé en Interaction Homme Machine, je recherc
 ### Agent saisonnier espaces verts - Mairie de Wolfisheim
 
 **Juillet 2022 et Juillet 2024 (missions saisonnières)**
-
-**Contexte :** Service technique de la mairie.
-
-**Projet :** Entretien des espaces verts et du fort Kléber.
 
 **Missions :**
 

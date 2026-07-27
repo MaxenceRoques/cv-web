@@ -10,7 +10,7 @@ const HOST = process.env.HOST || "0.0.0.0";
 const PORT = Number(process.env.PORT) || 3000;
 
 const PROFILES = new Set(["backend", "frontend", "fullstack"]);
-const STYLES = new Set(["elegant", "ocean", "executive", "minimal", "tech"]);
+const STYLES = new Set(["tech", "elegant", "ocean", "executive", "minimal"]);
 const PUBLIC_FILES = new Set([
   "index.html",
   "styles.css",
@@ -18,10 +18,12 @@ const PUBLIC_FILES = new Set([
   "content-backend.md",
   "content-frontend.md",
   "content-fullstack.md",
+  "assets/portrait-maxence.jpg",
 ]);
 const MIME_TYPES = {
   ".css": "text/css; charset=utf-8",
   ".html": "text/html; charset=utf-8",
+  ".jpg": "image/jpeg",
   ".js": "text/javascript; charset=utf-8",
   ".md": "text/markdown; charset=utf-8",
 };
@@ -53,7 +55,7 @@ async function generatePdf(profile, style) {
     const parameters = new URLSearchParams();
 
     if (profile !== "fullstack") parameters.set("profil", profile);
-    if (style !== "elegant") parameters.set("style", style);
+    if (style !== "tech") parameters.set("style", style);
 
     const pageUrl =
       `http://127.0.0.1:${PORT}/index.html` +
@@ -120,7 +122,7 @@ const server = createServer(async (request, response) => {
     const profile = PROFILES.has(requestedProfile)
       ? requestedProfile
       : "fullstack";
-    const style = STYLES.has(requestedStyle) ? requestedStyle : "elegant";
+    const style = STYLES.has(requestedStyle) ? requestedStyle : "tech";
 
     try {
       const pdf = await generatePdf(profile, style);

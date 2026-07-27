@@ -5,11 +5,11 @@ const PROFILES = Object.freeze({
 });
 
 const STYLES = Object.freeze({
+  tech: "Tech",
   elegant: "Élégant",
   ocean: "Océan",
   executive: "Executive",
   minimal: "Minimal",
-  tech: "Tech",
 });
 
 const SECTION_ORDER = Object.freeze({
@@ -303,11 +303,11 @@ function profileFromUrl() {
 
 function styleFromUrl() {
   const requested = new URLSearchParams(window.location.search).get("style");
-  return Object.hasOwn(STYLES, requested) ? requested : "elegant";
+  return Object.hasOwn(STYLES, requested) ? requested : "tech";
 }
 
 function applyStyle(style) {
-  const safeStyle = Object.hasOwn(STYLES, style) ? style : "elegant";
+  const safeStyle = Object.hasOwn(STYLES, style) ? style : "tech";
   document.documentElement.dataset.style = safeStyle;
   styleSelect.value = safeStyle;
 }
@@ -321,7 +321,7 @@ function updateUrl({ profile = profileSelect.value, style = styleSelect.value })
     url.searchParams.set("profil", profile);
   }
 
-  if (style === "elegant") {
+  if (style === "tech") {
     url.searchParams.delete("style");
   } else {
     url.searchParams.set("style", style);
@@ -388,7 +388,7 @@ pdfExportButton.addEventListener("click", () => {
     : "fullstack";
   const style = Object.hasOwn(STYLES, styleSelect.value)
     ? styleSelect.value
-    : "elegant";
+    : "tech";
   const parameters = new URLSearchParams({ profil: profile, style });
   const downloadLink = document.createElement("a");
 
