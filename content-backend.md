@@ -61,7 +61,7 @@ Ingénieur en informatique spécialisé en Interaction Homme Machine, je recherc
 - Conduite d'entretiens utilisateurs
 - Code orienté accessibilité
 
-## Langues parlées
+## Langues
 
 - Francais : Natif 
 - Anglais : Courant
