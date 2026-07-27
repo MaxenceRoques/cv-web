@@ -1,0 +1,18 @@
+[2026-07-27T12:15:52.180Z] [INFO] ========================================================================================================================
+[2026-07-27T12:15:52.180Z] [INFO] Initializing MAM Client.
+App: com.microsoft.edge 150.0.4078.99
+SDK: 2.1.367.0
+OS: windows 10.0.26200.8875
+DeviceType: Desktop
+Manufacturer: LENOVO
+Model: ThinkServer TS140
+Telemetry: yes
+Managed device support: enabled
+[2026-07-27T12:15:52.180Z] [INFO] Telemetry session a597cdff-336c-4b2a-a06f-316fedd05797.
+[2026-07-27T12:15:52.180Z] [INFO] Initializing cache (v1).
+[2026-07-27T12:15:52.199Z] [INFO] Registered UserID:d8843d68-39ee-4af6-8f45-6e1d85cc02d3 in the Azure public cloud.
+[2026-07-27T12:15:52.199Z] [INFO] Conditional Access is blocked for UserID:d8843d68-39ee-4af6-8f45-6e1d85cc02d3 pre-enrollment; compliance reporting will be accelerated to unblock the user.
+[2026-07-27T12:15:52.199Z] [INFO] Queuing pre-enrollment policy assignment check for UserID:d8843d68-39ee-4af6-8f45-6e1d85cc02d3 to run as soon as possible.
+[2026-07-27T12:15:52.199Z] [INFO] Scheduler background thread starting for UserID:d8843d68-39ee-4af6-8f45-6e1d85cc02d3.
+[2026-07-27T12:15:53.624Z] [INFO] Shutting down.
+[2026-07-27T12:15:53.624Z] [INFO] Stopping the task scheduler and canceling any outstanding work items...

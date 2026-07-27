@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="CV de Maxence Roques."
+    >
+    <title>Maxence Roques</title>
+    <link rel="stylesheet" href="styles.css?v=20260727-2">
+    <script src="script.js?v=20260727-4" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenu">Aller au contenu principal</a>
+
+    <nav class="profile-toolbar" aria-label="Personnalisation du CV">
+      <div class="toolbar-control">
+        <label for="profile-select">Version du CV</label>
+        <select id="profile-select">
+          <option value="backend">Backend</option>
+          <option value="frontend">Frontend</option>
+          <option value="fullstack">Fullstack</option>
+        </select>
+      </div>
+      <div class="toolbar-control">
+        <label for="style-select">Style du CV</label>
+        <select id="style-select">
+          <option value="elegant">Élégant</option>
+          <option value="ocean">Océan</option>
+          <option value="executive">Executive</option>
+          <option value="minimal">Minimal</option>
+          <option value="tech">Tech</option>
+        </select>
+      </div>
+      <button
+        id="pdf-export-button"
+        type="button"
+        title="Télécharger la version sélectionnée du CV au format PDF"
+      >
+        Exporter en PDF
+      </button>
+    </nav>
+
+    <header id="presentation" aria-busy="true">
+      <h1 id="person-name">Maxence Roques</h1>
+      <h2 id="profile-title">Chargement…</h2>
+      <p id="profile-summary"></p>
+      <ul
+        id="profile-details"
+        class="profile-details"
+        aria-label="Coordonnées"
+      ></ul>
+    </header>
+
+    <main id="contenu" tabindex="-1" aria-busy="true">
+      <p class="loading-message" role="status">Chargement du contenu…</p>
+    </main>
+
+    <noscript>
+      <p class="error-message">
+        JavaScript doit être activé pour charger le contenu du CV.
+      </p>
+    </noscript>
+  </body>
+</html>

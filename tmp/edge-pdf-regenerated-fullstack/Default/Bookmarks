@@ -1,0 +1,51 @@
+{
+   "checksum": "44d21a33ef83ec4514ffdf656e23c73f",
+   "roots": {
+      "bookmark_bar": {
+         "children": [  ],
+         "date_added": "13429628295467590",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Barre des favoris",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13429628295467590",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Autres favoris",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13429628295467590",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Favoris de l’appareil mobile",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "workspaces_v2": {
+         "children": [  ],
+         "date_added": "13429628295467590",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "75aa6670-344f-549d-b742-660f029506ab",
+         "id": "5",
+         "name": "Espaces de travail",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CosBCg4IiIECEggC7BOsngEAABIAGlhzMWhxa3gxZWYvOXN1SnBlVjZLeU95Y2I3Nnk5VGtSaXF4YnpIVnA4VlJkNWJ3NEQvd3VxNWEvbEpRelFzVFZpVG5qdnhvLzJrVWpJcHhFL1V2aDNGdz09Khh3ZERDN1dYdG1jazNMdmRBL0JNOGVRPT1IA6AGCRKOAQgFEokBChx3UkJyWkwrNlBBOWF2S2dqTlA3SlhETGNmdnM9EiRjNTgzODdhMi0yNWQ5LTU2OTktODEyMi1iZGFmOTllNjBhNDMYACAAKAAw+POam+YzOMz8mpvmM0DM/Jqb5jNKHG5teDY1c1FEdnhJOFRnRWV2K0ErbnR0b1NuND1aAGUAAAAAwj4CYAASjgEIARKJAQoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRIkN2IyNTQ5MmQtMTkyMy01MWYwLWFjMDMtYmFkMjM3ODdjZDUwGAAgACgAMPLzmpvmMzjL+5qb5jNAy/uam+YzShxhUkNXTGdoRjliNUlucUtJRHZ1Si9qdlFrRmM9WgBlAAAAAMI+AmAAEo4BCAISiQEKHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SJGZmZTNmYTIyLTk2MmMtNThiOC1iMjNiLTFkNmY2NDI5ZTkzMxgAIAAoADDz85qb5jM4gfyam+YzQIH8mpvmM0ocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PVoAZQAAAADCPgJgABKOAQgDEokBChxuamdEdTg4ZUNydlhwODZwRDdmSEdjcUZwODg9EiQ2MWExODhjNS1jZGM4LTU1NTEtOWUyOS0yZmViOTQzN2E5OTMYACAAKAAw+fOam+YzOPn8mpvmM0D5/Jqb5jNKHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1aAGUAAAAAwj4CYAAwADgA",
+   "version": 1
+}
