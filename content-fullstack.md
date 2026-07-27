@@ -128,6 +128,11 @@ Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je co
 
 **Janvier 2025 - Avril 2025 (3 mois)**
 
-**Projet :** Jeu de Tron multijoueur en équipe, avec modes local, IA et en ligne, système d'amis et gamification, déployé sur AWS.
+**Projet :** Jeu de Tron multijoueur en équipe.
+
+**Missions :**
+
+- Système d'amis, gamification mode local, IA et en ligne.
+- Déploiement sur AWS
 
 **Environnement technique :** HTML, CSS, JavaScript, AWS
