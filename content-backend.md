@@ -1,6 +1,6 @@
-# Développeur backend junior — IHM & IA
+# Développeur frontend junior — IHM & IA
 
-Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je conçois des services back-end (Node.js, Java, Python) robustes qui exposent et fiabilisent des traitements IA en production. Mon stage chez Nextsourcia m'a permis de construire des architectures événementielles et des pipelines IA exploités par de vrais utilisateurs métier. Disponible à partir du 1er septembre 2026.
+Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je conçois des interfaces (React, Svelte, HTML/CSS) pensées à partir d'entretiens utilisateurs et de tests d'accessibilité, capables d'exposer des fonctionnalités IA de façon lisible. Mon stage chez Nextsourcia m'a confirmé ce que j'aime : transformer des besoins utilisateurs réels en interfaces utilisables. Disponible à partir du 1er septembre 2026.
 
 ## Profil
 
@@ -23,24 +23,20 @@ Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je co
 
 ## Domaines & compétences
 
-### Back-end et programmation
+### Front-end
 
-- Java
-- Python
-- Node JS
-- C#
-- C
-
-### Frameworks et technologies web
-
-- Spring
+- JavaScript
+- HTML5
+- CSS
 - React
 - Angular
 - Svelte
-- HTML5
-- CSS
-- JavaScript
-- Unity
+
+### IHM et conception
+
+- Conception centrée utilisateur
+- Conduite d'entretiens utilisateurs
+- Code orienté accessibilité
 
 ### IA et automatisation
 
@@ -50,16 +46,20 @@ Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je co
 - Analyse de données
 - Automatisation de processus métiers
 
+### Programmation et frameworks
+
+- Java
+- Python
+- Node JS
+- C#
+- C
+- Spring
+- Unity
+
 ### Outils
 
 - GitHub
 - AWS
-
-### Conception
-
-- Conception centrée utilisateur
-- Conduite d'entretiens utilisateurs
-- Code orienté accessibilité
 
 ## Langues
 
@@ -86,12 +86,12 @@ Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je co
 
 **Missions :**
 
-- Développement de services back-end pour le dashboard temps réel et le pipeline événementiel Kafka
-- Conception du versionnement, du déploiement et de la propagation des configurations IA entre applications
-- Développement d'une passerelle Mistral Batch et de workflows n8n de benchmark et d'évaluation
-- Fiabilisation des traitements documentaires, du scoring candidat-opportunité et de la collecte de feedback
+- Développement d'un dashboard temps réel à base de widgets et de mises à jour WebSocket
+- Création des interfaces d'administration, de comparaison, de publication et de déploiement des configurations IA
+- Intégration de parcours de scoring, de signalement contextuel et d'une inbox de feedback
+- Contribution à l'AI Lab orchestré par n8n pour benchmarker et évaluer les configurations
 
-**Environnement technique :** Node.js, Mistral AI, n8n, WebSocket, Kafka, Redis, Zod
+**Environnement technique :** React, Node.js, Mistral AI, n8n, WebSocket, Zod
 
 ### Projet d'ingénierie - Polytech Nice Sophia
 
@@ -99,16 +99,16 @@ Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je co
 
 **Contexte :** Projet en équipe pour la plateforme GECOS d'Université Côte d'Azur.
 
-**Projet :** Service de synthèse et de routage multicanal des alertes GTB.
+**Projet :** Interface métier de supervision et de suivi du cycle de vie des alertes GTB.
 
 **Missions :**
 
-- Recueil des besoins auprès des services techniques
-- Conception d'un monolithe modulaire à plugins suivant une approche Domain-Driven Design
-- Réception, synthèse et persistance des alertes issues d'InfluxDB avec Flux et SQLite
-- Routage résilient vers Kanboard, Slack, Teams et Vonage avec backoff, mise en attente et canal de secours supervisé par Telegraf
+- Benchmark de solutions open source et évaluation de Plane, Kanboard et Alerta avec les utilisateurs finaux
+- Conception d'un protocole de tests IHM centré sur les pratiques des services techniques
+- Développement de six plugins PHP pour adapter Kanboard : filtres simplifiés, édition rapide, vue modale, priorités et thème GECOS
+- Itérations sur la navigation et la lisibilité après une seconde phase d'entretiens utilisateurs
 
-**Environnement technique :** InfluxDB, Flux, SQLite, Telegraf, Docker, API Kanboard, Slack, Teams, Vonage
+**Environnement technique :** PHP, Kanboard, HTML, CSS, JavaScript, Docker, tests utilisateurs
 
 ### Stage développement IA - DNIIT
 
@@ -120,8 +120,8 @@ Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je co
 
 **Missions :**
 
-- Analyse de données et entraînement de modèles d'IA (Random Forest) pour la prédiction de départs de feu
-- Création de tableaux de bord de suivi des prédictions
+- Création de dashboards pour le suivi des résultats
+- Analyse de données et entraînement de modèles d'IA (Random Forest)
 
 **Environnement technique :** Python, React, Random Forest
 
@@ -129,6 +129,6 @@ Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je co
 
 **Janvier 2025 - Avril 2025 (3 mois)**
 
-**Projet :** Jeu de Tron multijoueur en équipe, avec modes local, IA et en ligne, gamification et déploiement sur AWS.
+**Projet :** Jeu de Tron multijoueur en équipe, avec modes local, IA et en ligne, interfaces, gamification et déploiement sur AWS.
 
 **Environnement technique :** HTML, CSS, JavaScript, AWS
