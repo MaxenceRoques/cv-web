@@ -21,9 +21,21 @@ Contraintes :
 - À l'impression, masquer les contrôles et obtenir exactement une page A4.
 - Le texte doit rester sélectionnable.
 - Les coordonnées doivent utiliser des liens mailto, tel, LinkedIn et GitHub.
-- Ajouter un bouton permettant d'appeler window.print().
+- Ajouter un bouton générant dynamiquement le PDF correspondant au profil et
+  au style sélectionnés.
 - Ne pas inventer de contenu absent des sources.
 - Vérifier qu'il n'y a aucun débordement horizontal.
 
 Commence par analyser les fichiers de référence, puis implémente la première
 version. À la fin, résume les fichiers créés et les choix de mise en page.
+
+## Lancement
+
+```sh
+npm install
+npx playwright install chromium
+npm start
+```
+
+Le site est ensuite disponible sur `http://localhost:3000`. La route
+`/api/pdf` génère les PDF à la demande avec Chromium.

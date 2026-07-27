@@ -4,12 +4,6 @@ const PROFILES = Object.freeze({
   fullstack: "content-fullstack.md",
 });
 
-const PDF_EXPORTS = Object.freeze({
-  backend: "exports/cv-maxence-backend.pdf",
-  frontend: "exports/cv-maxence-frontend.pdf",
-  fullstack: "exports/cv-maxence-fullstack.pdf",
-});
-
 const STYLES = Object.freeze({
   elegant: "Élégant",
   ocean: "Océan",
@@ -389,13 +383,17 @@ styleSelect.addEventListener("change", () => {
 });
 
 pdfExportButton.addEventListener("click", () => {
-  const profile = Object.hasOwn(PDF_EXPORTS, profileSelect.value)
+  const profile = Object.hasOwn(PROFILES, profileSelect.value)
     ? profileSelect.value
     : "fullstack";
+  const style = Object.hasOwn(STYLES, styleSelect.value)
+    ? styleSelect.value
+    : "elegant";
+  const parameters = new URLSearchParams({ profil: profile, style });
   const downloadLink = document.createElement("a");
 
-  downloadLink.href = PDF_EXPORTS[profile];
-  downloadLink.download = `cv-maxence-${profile}.pdf`;
+  downloadLink.href = `/api/pdf?${parameters.toString()}`;
+  downloadLink.download = `cv-maxence-${profile}-${style}.pdf`;
   document.body.append(downloadLink);
   downloadLink.click();
   downloadLink.remove();

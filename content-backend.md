@@ -78,19 +78,20 @@ Ingénieur en informatique spécialisé en Interaction Homme Machine, je recherc
 
 ### Développeur Fullstack IA - Nextsourcia
 
-**Mars 2026 - Aout 2026 (6 mois)**
+**Mars 2026 - Juillet 2026 (5 mois)**
 
-**Contexte :** Entreprise de solutions technologiques innovantes.
+**Contexte :** Industrialisation d'une plateforme métier multi-applications intégrant l'IA.
 
-**Projet :** Applications web fullstack intégrant l'IA.
+**Projet :** Gouvernance des configurations IA, traitements documentaires et automatisation des évaluations.
 
 **Missions :**
 
-- Développement des fonctionnalités back-end avec Node JS
-- Intégration de l'API Mistral AI pour les fonctionnalités d'IA
-- Travail sur le prompt engineering
+- Développement de services back-end pour le dashboard temps réel et le pipeline événementiel Kafka
+- Conception du versionnement, du déploiement et de la propagation des configurations IA entre applications
+- Développement d'une passerelle Mistral Batch et de workflows n8n de benchmark et d'évaluation
+- Fiabilisation des traitements documentaires, du scoring candidat-opportunité et de la collecte de feedback
 
-**Environnement technique :** React, Node JS, API Mistral AI
+**Environnement technique :** Node.js, Mistral AI, n8n, WebSocket, Kafka, Redis, Zod
 
 ### Projet d'ingénierie - Polytech Nice Sophia
 
