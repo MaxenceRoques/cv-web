@@ -754,4 +754,37 @@ article li {
     break-after: avoid-page;
     page-break-after: avoid;
   }
+
+  :root[data-layout="single"] body {
+    zoom: 0.66;
+  }
+
+  :root[data-layout="single"] header {
+    padding: 16px 42px 12px;
+  }
+
+  :root[data-layout="single"] main {
+    gap: 10px 42px;
+    padding: 14px 42px 18px;
+  }
+
+  :root[data-layout="single"] main h2 {
+    margin-bottom: 8px;
+  }
+
+  :root[data-layout="single"] section[aria-labelledby="experiences"] {
+    gap: 7px;
+  }
+
+  :root[data-layout="single"] article {
+    padding-top: 0;
+  }
+
+  :root[data-layout="single"] article > ul {
+    margin-bottom: 3px;
+  }
+
+  :root[data-layout="single"] article li {
+    margin-bottom: 0;
+  }
 }
