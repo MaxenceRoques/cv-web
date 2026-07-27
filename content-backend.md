@@ -13,7 +13,6 @@ Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je co
 
 - **Sport :** cyclisme, Formule 1
 - **Musique :** chant, membre d'un groupe de musique
-- Jeux vidéo
 - Lecture
 
 ## Informations complémentaires
