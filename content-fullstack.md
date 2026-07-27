@@ -61,7 +61,7 @@ Ingénieur en informatique spécialisé en Interaction Homme Machine, je recherc
 - GitHub
 - AWS
 
-## Langues parlées
+## Langues
 
 - Francais : Natif 
 - Anglais : Courant
