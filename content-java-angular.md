@@ -4,6 +4,10 @@ Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je d�
 
 ## Profil
 
+## Positionnement
+
+IHM, Java/Angular et IA appliquee : developpement full-stack d'applications metier, avec une attention portee a l'utilisabilite, a la qualite logicielle et a l'integration de fonctionnalites LLM.
+
 - **Nom :** Maxence Roques
 - **Téléphone :** [06 67 70 20 14](tel:+33667702014)
 - **E-mail :** [maxenceroques67@gmail.com](mailto:maxenceroques67@gmail.com)
@@ -25,6 +29,8 @@ Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je d�
 ### Java et back-end
 
 - Java 17/21
+- Evaluation de sorties LLM et tests de non-regression IA
+- Versionnement et tracabilite de configurations IA
 - Spring Boot
 - API REST
 - Spring Data JPA

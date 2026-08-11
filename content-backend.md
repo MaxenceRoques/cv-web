@@ -1,8 +1,12 @@
-# Développeur frontend junior — IHM & IA
+# Développeur backend junior — Node.js & IA
 
-Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je conçois des interfaces (React, Svelte, HTML/CSS) pensées à partir d'entretiens utilisateurs et de tests d'accessibilité, capables d'exposer des fonctionnalités IA de façon lisible. Mon stage chez Nextsourcia m'a confirmé ce que j'aime : transformer des besoins utilisateurs réels en interfaces utilisables. Disponible à partir du 1er septembre 2026.
+Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je développe des services backend en Node.js et Python, des flux temps réel et des systèmes intégrant l'IA de l'orchestration à la production. Mon stage chez Nextsourcia m'a confirmé ce que j'aime : construire des architectures fiables au service de produits concrets. Disponible à partir du 1er septembre 2026.
 
 ## Profil
+
+## Positionnement
+
+Backend, IHM et IA appliquee : conception de services fiables et de flux temps reel pour des produits metier, avec orchestration, evaluation et tracabilite des fonctionnalites LLM.
 
 - **Nom :** Maxence Roques
 - **Téléphone :** [06 67 70 20 14](tel:+33667702014)
@@ -22,43 +26,47 @@ Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je co
 
 ## Domaines & compétences
 
+### Back-end et programmation
+
+- Node JS
+- Java
+- Python
+- C#
+- C
+- Spring
+
+### Données et temps réel
+
+- WebSocket
+- Kafka
+- Redis
+- InfluxDB
+- SQLite
+
+### IA et automatisation
+
+- API Mistral AI
+- Evaluation de sorties LLM et LLM-as-a-Judge
+- Datasets de tests et tests de non-regression IA
+- Versionnement et tracabilite de configurations IA
+- Prompt engineering
+- Entraînement de modèles d'IA
+- Analyse de données
+- Automatisation de processus métiers
+
 ### Front-end
 
 - JavaScript
 - HTML5
 - CSS
 - React
-- Angular
-- Svelte
-
-### IHM et conception
-
-- Conception centrée utilisateur
-- Conduite d'entretiens utilisateurs
-- Code orienté accessibilité
-
-### IA et automatisation
-
-- API Mistral AI
-- Prompt engineering
-- Entraînement de modèles d'IA
-- Analyse de données
-- Automatisation de processus métiers
-
-### Programmation et frameworks
-
-- Java
-- Python
-- Node JS
-- C#
-- C
-- Spring
-- Unity
 
 ### Outils
 
 - GitHub
 - AWS
+- Docker
+- n8n
 
 ## Langues
 
@@ -85,12 +93,12 @@ Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je co
 
 **Missions :**
 
-- Développement d'un dashboard temps réel à base de widgets et de mises à jour WebSocket
-- Création des interfaces d'administration, de comparaison, de publication et de déploiement des configurations IA
-- Intégration de parcours de scoring, de signalement contextuel et d'une inbox de feedback
-- Contribution à l'AI Lab orchestré par n8n pour benchmarker et évaluer les configurations
+- Conception des flux temps réel d'un dashboard à widgets, avec diffusion des mises à jour par WebSocket et traitement via Kafka et Redis
+- Mise en place du cycle de vie complet des configurations IA : versionnement, publication, déploiement, rollback et synchronisation des projections locales
+- Développement des services d'enrichissement documentaire et de scoring candidat-opportunité, avec collecte du feedback utilisateur
+- Contribution à un AI Lab orchestré par n8n combinant traitements Mistral Batch, benchmarks et juges automatisés pour évaluer les configurations
 
-**Environnement technique :** React, Node.js, Mistral AI, n8n, WebSocket, Zod
+**Environnement technique :** Node.js, Mistral AI, n8n, WebSocket, Kafka, Redis, Zod, React
 
 ### Projet d'ingénierie - Polytech Nice Sophia
 
@@ -98,16 +106,16 @@ Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je co
 
 **Contexte :** Projet en équipe pour la plateforme GECOS d'Université Côte d'Azur.
 
-**Projet :** Interface métier de supervision et de suivi du cycle de vie des alertes GTB.
+**Projet :** Solution de synthèse, de supervision et de routage multicanal des alertes GTB.
 
 **Missions :**
 
-- Benchmark de solutions open source et évaluation de Plane, Kanboard et Alerta avec les utilisateurs finaux
-- Conception d'un protocole de tests IHM centré sur les pratiques des services techniques
-- Développement de six plugins PHP pour adapter Kanboard : filtres simplifiés, édition rapide, vue modale, priorités et thème GECOS
-- Itérations sur la navigation et la lisibilité après une seconde phase d'entretiens utilisateurs
+- Recueil des besoins auprès des services techniques et évaluation comparative de solutions de gestion d'alertes
+- Conception d'un service conteneurisé et extensible par plugins pour synthétiser et persister les alertes issues d'InfluxDB
+- Mise en œuvre d'un routage multicanal résilient vers Kanboard, Slack, Teams et SMS, avec reprise automatique sur erreur
+- Développement de six plugins PHP pour adapter Kanboard aux processus métier et aux usages terrain
 
-**Environnement technique :** PHP, Kanboard, HTML, CSS, JavaScript, Docker, tests utilisateurs
+**Environnement technique :** InfluxDB, Flux, SQLite, Telegraf, PHP, Kanboard, Docker, API
 
 ### Stage développement IA - DNIIT
 
@@ -119,8 +127,8 @@ Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je co
 
 **Missions :**
 
-- Création de dashboards pour le suivi des résultats
-- Analyse de données et entraînement de modèles d'IA (Random Forest)
+- Analyse des données, préparation des variables et entraînement de modèles Random Forest pour prédire les départs de feu
+- Intégration des résultats dans des tableaux de bord React pour visualiser et suivre les niveaux de risque
 
 **Environnement technique :** Python, React, Random Forest
 
@@ -132,6 +140,8 @@ Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je co
 
 **Missions :**
 
-- Système d'amis, gamification, mode local, IA et en ligne.
+- Développement du système d'amis et des mécaniques de gamification
+- Réalisation des modes de jeu local et en ligne, avec adversaire contrôlé par une IA
+- Déploiement de l'application multijoueur sur AWS
 
 **Environnement technique :** HTML, CSS, JavaScript, AWS

@@ -4,6 +4,10 @@ Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je co
 
 ## Profil
 
+## Positionnement
+
+IHM, developpement full-stack et IA appliquee : conception d'interfaces metier accessibles, integration de fonctionnalites LLM et mise en place de leur evaluation, tracabilite et amelioration continue.
+
 - **Nom :** Maxence Roques
 - **Téléphone :** [06 67 70 20 14](tel:+33667702014)
 - **E-mail :** [maxenceroques67@gmail.com](mailto:maxenceroques67@gmail.com)
@@ -43,6 +47,9 @@ Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je co
 ### IA et automatisation
 
 - API Mistral AI
+- Evaluation de sorties LLM et LLM-as-a-Judge
+- Datasets de tests et tests de non-regression IA
+- Versionnement et tracabilite de configurations IA
 - Prompt engineering
 - Entraînement de modèles d'IA
 - Analyse de données
@@ -85,10 +92,10 @@ Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je co
 
 **Missions :**
 
-- Conception d'un dashboard temps réel avec widgets, WebSocket, Kafka et Redis
-- Mise en place du cycle de vie des configurations IA : versionnement, déploiement, rollback et projections locales
-- Développement d'un AI Lab orchestré par n8n avec traitements Mistral Batch, benchmarks et juges pour fiabiliser les réponses IA avant mise en production
-- Fiabilisation des enrichissements documentaires, du scoring candidat-opportunité et du feedback utilisateur
+- Conception et intégration d'un dashboard à widgets pour visualiser les données en temps réel, alimenté par WebSocket, Kafka et Redis
+- Mise en place du cycle de vie complet des configurations IA : versionnement, déploiement, rollback et synchronisation des projections locales
+- Développement d'un AI Lab orchestré par n8n combinant traitements Mistral Batch, benchmarks et juges automatisés pour évaluer les réponses avant leur mise en production
+- Fiabilisation des chaînes d'enrichissement documentaire et de scoring candidat-opportunité, avec prise en compte du feedback utilisateur
 
 **Environnement technique :** React, Node.js, Mistral AI, n8n, WebSocket, Kafka, Redis, Zod
 
@@ -102,10 +109,10 @@ Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je co
 
 **Missions :**
 
-- Recueil des besoins et évaluation de solutions de gestion d'alertes avec les services techniques
-- Conception d'un service conteneurisé à plugins pour synthétiser et persister les alertes issues d'InfluxDB
-- Routage résilient vers Kanboard, Slack, Teams et SMS avec reprise sur erreur
-- Développement de six plugins PHP pour adapter Kanboard aux usages terrain et aux retours utilisateurs
+- Recueil des besoins auprès des services techniques et évaluation comparative de solutions de gestion d'alertes
+- Conception d'un service conteneurisé et extensible par plugins pour synthétiser et persister les alertes issues d'InfluxDB
+- Mise en œuvre d'un routage multicanal résilient vers Kanboard, Slack, Teams et SMS, avec reprise automatique sur erreur
+- Développement de six plugins PHP pour adapter Kanboard aux processus métier, aux usages terrain et aux retours utilisateurs
 
 **Environnement technique :** InfluxDB, Flux, SQLite, Telegraf, PHP, Kanboard, Docker, API
 
@@ -119,8 +126,8 @@ Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je co
 
 **Missions :**
 
-- Analyse de données et entraînement de modèles d'IA (Random Forest) pour la prédiction de départs de feu
-- Création de tableaux de bord de suivi des prédictions
+- Analyse des données, préparation des variables et entraînement de modèles Random Forest pour prédire les départs de feu
+- Évaluation des prédictions et création de tableaux de bord React pour visualiser et suivre les niveaux de risque
 
 **Environnement technique :** Python, React, Random Forest
 
@@ -132,6 +139,8 @@ Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je co
 
 **Missions :**
 
-- Système d'amis, gamification, mode local, IA et en ligne.
+- Développement du système d'amis et des mécaniques de gamification
+- Réalisation des modes de jeu local et en ligne, avec adversaire contrôlé par une IA
+- Déploiement de l'application multijoueur sur AWS
 
 **Environnement technique :** HTML, CSS, JavaScript, AWS
