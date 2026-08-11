@@ -4,6 +4,10 @@ Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je co
 
 ## Profil
 
+## Positionnement
+
+IHM, accessibilite et IA appliquee : conception d'interfaces metier lisibles et exploitables pour des fonctionnalites LLM, avec une approche full-stack et centree utilisateur.
+
 - **Nom :** Maxence Roques
 - **Téléphone :** [06 67 70 20 14](tel:+33667702014)
 - **E-mail :** [maxenceroques67@gmail.com](mailto:maxenceroques67@gmail.com)
@@ -40,6 +44,9 @@ Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je co
 ### IA et automatisation
 
 - API Mistral AI
+- Evaluation de sorties LLM et LLM-as-a-Judge
+- Datasets de tests et tests de non-regression IA
+- Versionnement et tracabilite de configurations IA
 - Prompt engineering
 - Entraînement de modèles d'IA
 - Analyse de données
@@ -85,10 +92,10 @@ Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je co
 
 **Missions :**
 
-- Développement d'un dashboard temps réel à base de widgets et de mises à jour WebSocket
+- Conception et intégration d'un dashboard modulaire à widgets, actualisé en temps réel par WebSocket
 - Création des interfaces d'administration, de comparaison, de publication et de déploiement des configurations IA
-- Intégration de parcours de scoring, de signalement contextuel et d'une inbox de feedback
-- Contribution à l'AI Lab orchestré par n8n pour benchmarker et évaluer les configurations
+- Intégration de parcours de scoring candidat-opportunité, de signalement contextuel et d'une inbox centralisant le feedback utilisateur
+- Contribution à l'AI Lab orchestré par n8n afin de présenter, comparer et évaluer les résultats des configurations IA
 
 **Environnement technique :** React, Node.js, Mistral AI, n8n, WebSocket, Zod
 
@@ -103,9 +110,9 @@ Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je co
 **Missions :**
 
 - Benchmark de solutions open source et évaluation de Plane, Kanboard et Alerta avec les utilisateurs finaux
-- Conception d'un protocole de tests IHM centré sur les pratiques des services techniques
+- Conception et conduite d'un protocole de tests IHM centré sur les pratiques quotidiennes des services techniques
 - Développement de six plugins PHP pour adapter Kanboard : filtres simplifiés, édition rapide, vue modale, priorités et thème GECOS
-- Itérations sur la navigation et la lisibilité après une seconde phase d'entretiens utilisateurs
+- Amélioration de la navigation, de la hiérarchie visuelle et de la lisibilité à partir d'une seconde phase d'entretiens utilisateurs
 
 **Environnement technique :** PHP, Kanboard, HTML, CSS, JavaScript, Docker, tests utilisateurs
 
@@ -119,8 +126,8 @@ Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je co
 
 **Missions :**
 
-- Création de dashboards pour le suivi des résultats
-- Analyse de données et entraînement de modèles d'IA (Random Forest)
+- Création de tableaux de bord React pour visualiser les prédictions et suivre l'évolution des niveaux de risque
+- Analyse des données et entraînement de modèles Random Forest pour alimenter l'interface de suivi
 
 **Environnement technique :** Python, React, Random Forest
 
@@ -132,6 +139,8 @@ Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je co
 
 **Missions :**
 
-- Système d'amis, gamification, mode local, IA et en ligne.
+- Développement des interfaces du système d'amis et des mécaniques de gamification
+- Réalisation des parcours des modes de jeu local et en ligne, avec adversaire contrôlé par une IA
+- Intégration de l'interface du jeu multijoueur déployé sur AWS
 
 **Environnement technique :** HTML, CSS, JavaScript, AWS
