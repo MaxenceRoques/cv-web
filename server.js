@@ -9,7 +9,7 @@ const ROOT_DIRECTORY = path.dirname(fileURLToPath(import.meta.url));
 const HOST = process.env.HOST || "0.0.0.0";
 const PORT = Number(process.env.PORT) || 3000;
 
-const PROFILES = new Set(["backend", "frontend", "fullstack", "java-angular"]);
+const PROFILES = new Set(["backend", "frontend", "fullstack", "java-angular", "gsf"]);
 const STYLES = new Set(["tech", "elegant", "ocean", "executive", "minimal"]);
 const LAYOUTS = new Set(["multi", "single"]);
 const PUBLIC_FILES = new Set([
@@ -20,6 +20,7 @@ const PUBLIC_FILES = new Set([
   "content-frontend.md",
   "content-fullstack.md",
   "content-java-angular.md",
+  "content-gsf.md",
   "assets/portrait-maxence.jpg",
 ]);
 const MIME_TYPES = {

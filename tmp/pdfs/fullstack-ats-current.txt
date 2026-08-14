@@ -1,0 +1,71 @@
+> Maxence Roques
+Développeur fullstack junior — IHM & IA
+Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je conçois des produits fullstack (React,
+Angular, Node.js) qui intègrent de l'IA de bout en bout, de l'entraînement de modèles à l'orchestration en production.
+Mon stage chez Nextsourcia m'a confirmé ce que j'aime : construire des interfaces exploitables pour des utilisateurs
+réels, pas seulement des fonctionnalités. Disponible à partir du 1er septembre 2026.
+
+                                 Téléphone : 06 67 70 20 14     E-mail : maxenceroques67@gmail.com    LinkedIn : linkedin.com/in/maxence-roques
+
+
+DOMAINES & COMPÉTENCES
+
+  Front-end                          Back-end et                         IA et automatisation               IHM et conception                     Autres technologies et
+        JavaScript                   programmation                              API Mistral AI                     Conception centrée             outils
+        HTML5                               Node JS                             Prompt engineering                 utilisateur                          Unity
+        CSS                                 Java                                Entraînement de                    Conduite d'entretiens                GitHub
+        React                               Python                              modèles d'IA                       utilisateurs                         AWS
+        Angular                             C#                                  Analyse de données                 Code orienté
+        Svelte                              C                                   Automatisation de                  accessibilité
+                                            Spring                              processus métiers
+
+
+EXPÉRIENCES
+
+Développeur Fullstack IA - Nextsourcia                                                                                                       Mars 2026 - Juillet 2026 (5 mois)
+Contexte : Stage de fin d’études chez Nextsourcia
+Projet : Plateforme SaaS dédiée aux RH et au recrutement, réunissant gestion opérationnelle, back-office, pilotage et assistance par IA.
+Missions :
+    Conception d'un dashboard temps réel avec widgets, WebSocket, Kafka et Redis
+    Mise en place du cycle de vie des configurations IA : versionnement, déploiement, rollback et projections locales
+    Développement d'un AI Lab orchestré par n8n avec traitements Mistral Batch, benchmarks et juges pour fiabiliser les réponses IA avant mise en production
+    Fiabilisation des enrichissements documentaires, du scoring candidat-opportunité et du feedback utilisateur
+Environnement technique : React, Node.js, Mistral AI, n8n, WebSocket, Kafka, Redis, Zod
+
+Projet d'ingénierie - Polytech Nice Sophia                                                                                              Octobre 2025 - Février 2026 (5 mois)
+Contexte : Projet en équipe pour la plateforme GECOS d'Université Côte d'Azur.
+Projet : Solution de synthèse, de supervision et de routage multicanal des alertes GTB.
+Missions :
+    Recueil des besoins et évaluation de solutions de gestion d'alertes avec les services techniques
+    Conception d'un service conteneurisé à plugins pour synthétiser et persister les alertes issues d'InfluxDB
+    Routage résilient vers Kanboard, Slack, Teams et SMS avec reprise sur erreur
+    Développement de six plugins PHP pour adapter Kanboard aux usages terrain et aux retours utilisateurs
+Environnement technique : InfluxDB, Flux, SQLite, Telegraf, PHP, Kanboard, Docker, API
+
+Stage développement IA - DNIIT                                                                                                                    Mai 2025 - Août 2025 (4 mois)
+Contexte : Stage au Vietnam, en autonomie sur un sujet IA de bout en bout.
+Projet : Système prédictif d'alerte incendie par IA.
+Missions :
+    Analyse de données et entraînement de modèles d'IA (Random Forest) pour la prédiction de départs de feu
+    Création de tableaux de bord de suivi des prédictions
+Environnement technique : Python, React, Random Forest
+
+Projet académique - Jeu de Tron                                                                                                             Janvier 2025 - Avril 2025 (3 mois)
+Projet : Jeu de Tron multijoueur en équipe déployé sur AWS.
+Missions :
+    Système d'amis, gamification, mode local, IA et en ligne.
+Environnement technique : HTML, CSS, JavaScript, AWS
+
+DIPLÔMES ET CERTIFICATIONS                                                                           LANGUES
+   2023 - 2026 : Cycle ingénieur en informatique spécialisé en Interaction Homme                      Francais : Natif
+   Machine - Polytech Nice Sophia                                                                     Anglais : Courant
+   2025 : TOEIC - Polytech Nice Sophia                                                                Allemand : Intermédiaire
+   2021 - 2023 : Classe préparatoire aux grandes écoles, filière PSI - Lycée Couffignal
+   2021 : Baccalauréat spécialité Mathématique Physique - Collège épiscopal St-Etienne
+
+
+CENTRES D'INTÉRÊT                                                                                    INFORMATIONS COMPLÉMENTAIRES
+  Sport : cyclisme, Formule 1                                                                         Permis B
+  Musique : chant, piano, ukulélé                                                                     Responsable de la filière SI et IHM (2024 - 2026)
+  Lecture
+

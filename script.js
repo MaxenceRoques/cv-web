@@ -3,6 +3,7 @@ const PROFILES = Object.freeze({
   frontend: "content-frontend.md",
   fullstack: "content-fullstack.md",
   "java-angular": "content-java-angular.md",
+  gsf: "content-gsf.md",
 });
 
 const STYLES = Object.freeze({
@@ -32,6 +33,7 @@ const PROFILE_LABELS = Object.freeze({
   frontend: "frontend",
   fullstack: "fullstack",
   "java-angular": "Java / Angular",
+  gsf: "gsf",
 });
 
 const profileSelect = document.querySelector("#profile-select");
