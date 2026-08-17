@@ -1,87 +1,65 @@
-# Développeur fullstack junior — Java & Angular
+# Full Stack Engineer — React / TypeScript / Python & AI
 
-Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je développe des applications fullstack en Java, Spring Boot et Angular, de la conception d'interfaces à l'exposition d'API REST et à la persistance des données. Mes projets m'ont permis de travailler sur des architectures distribuées, les tests automatisés et la conteneurisation. Disponible à partir du 1er septembre 2026.
+Ingénieur Polytech Nice Sophia spécialisé en Interaction Homme Machine, je conçois des produits fullstack avec React, TypeScript, Node.js et Python, en intégrant des fonctionnalités IA dans des applications métier réelles. Mon expérience combine développement d'interfaces, APIs, systèmes temps réel, automatisation et évaluation de fonctionnalités IA. Disponible à partir du 1er septembre 2026.
 
 ## Profil
-
-## Positionnement
-
-IHM, Java/Angular et IA appliquee : developpement full-stack d'applications metier, avec une attention portee a l'utilisabilite, a la qualite logicielle et a l'integration de fonctionnalites LLM.
 
 - **Nom :** Maxence Roques
 - **Téléphone :** [06 67 70 20 14](tel:+33667702014)
 - **E-mail :** [maxenceroques67@gmail.com](mailto:maxenceroques67@gmail.com)
 - **LinkedIn :** [linkedin.com/in/maxence-roques](https://www.linkedin.com/in/maxence-roques/)
-
-## Centres d'intérêt
-
-- **Sport :** cyclisme, Formule 1
-- **Musique :** chant, piano, ukulélé
-- Lecture
-
-## Informations complémentaires
-
-- Permis B
-- Responsable de la filière SI et IHM (2024 - 2026)
+- **GitHub :** [github.com/MaxenceRoques](https://github.com/MaxenceRoques)
+- **Portfolio :** [maxenceroques.github.io/portfolio](https://maxenceroques.github.io/portfolio/)
 
 ## Domaines & compétences
 
-### Java et back-end
-
-- Java 17/21
-- Evaluation de sorties LLM et tests de non-regression IA
-- Versionnement et tracabilite de configurations IA
-- Spring Boot
-- API REST
-- Spring Data JPA
-- Maven
-
 ### Front-end
 
-- Angular
-- TypeScript
-- JavaScript
-- HTML5
-- CSS
 - React
+- Next.js
+- TypeScript / JavaScript
+- HTML5 / CSS
+- Interfaces responsive
+- UX/UI & accessibilité
 
-### Tests et qualité
-
-- JUnit
-- Mockito
-- Cucumber
-- Tests unitaires et d'intégration
-- Conception centrée utilisateur
-
-### Données et DevOps
-
-- PostgreSQL
-- Docker
-- Jenkins
-- GitHub Actions
-- GitHub
-
-### Autres technologies
+### Back-end & APIs
 
 - Node.js
 - Python
+- API REST
 - WebSocket
+- Zod
+- Java / Spring
+
+### IA & automatisation
+
+- API Mistral AI
+- Mistral Batch
+- Prompt engineering
+- LLM-as-a-Judge
+- Benchmarks et datasets de tests
+- n8n
+- Validation humaine des sorties IA
+
+### Données & systèmes
+
 - Kafka
 - Redis
+- SQLite
+- InfluxDB
+- Docker
 - AWS
+- Cloudflare D1
 
-## Langues
+### Qualité & produit
 
-- Français : Natif
-- Anglais : Courant
-- Allemand : Intermédiaire
-
-## Diplômes et certifications
-
-- 2023 - 2026 : Cycle ingénieur en informatique spécialisé en Interaction Homme Machine - Polytech Nice Sophia
-- 2025 : TOEIC - Polytech Nice Sophia
-- 2021 - 2023 : Classe préparatoire aux grandes écoles, filière PSI - Lycée Couffignal
-- 2021 : Baccalauréat spécialité Mathématiques et Physique - Collège épiscopal St-Etienne
+- Git / GitHub
+- Playwright
+- Tests et validation
+- Gestion des erreurs
+- Versionnement et déploiement
+- Feedback utilisateur
+- Développement itératif
 
 ## Expériences
 
@@ -89,62 +67,72 @@ IHM, Java/Angular et IA appliquee : developpement full-stack d'applications meti
 
 **Mars 2026 - Juillet 2026 (5 mois)**
 
-**Contexte :** Stage de fin d'études chez Nextsourcia.
-
-**Projet :** Plateforme SaaS dédiée aux RH et au recrutement, réunissant gestion opérationnelle, back-office, pilotage et assistance par IA.
+**Projet :** Plateforme SaaS RH réunissant interfaces métier, services backend, temps réel et fonctionnalités IA.
 
 **Missions :**
 
-- Conception et intégration d'un dashboard à widgets pour visualiser les données en temps réel, alimenté par WebSocket, Kafka et Redis
-- Mise en place du cycle de vie complet des configurations IA : versionnement, déploiement, rollback et synchronisation des projections locales
-- Développement d'un AI Lab orchestré par n8n combinant traitements Mistral Batch, benchmarks et juges automatisés pour évaluer les réponses avant leur mise en production
-- Fiabilisation des chaînes d'enrichissement documentaire et de scoring candidat-opportunité, avec prise en compte du feedback utilisateur
+- Conception et développement d'interfaces React et de services Node.js pour des fonctionnalités métier
+- Mise en place d'un dashboard temps réel avec WebSocket, Kafka et Redis
+- Développement d'un AI Lab orchestré avec n8n, Mistral Batch, benchmarks et juges LLM automatisés
+- Mise en place du versionnement, du déploiement, du rollback et de la traçabilité de configurations IA
+- Fiabilisation de chaînes d'enrichissement documentaire et de scoring à partir des erreurs et feedbacks utilisateurs
 
 **Environnement technique :** React, Node.js, Mistral AI, n8n, WebSocket, Kafka, Redis, Zod
+
+### Projet personnel - Juno
+
+**2026**
+
+**Projet :** Application fullstack de suivi de recherche d'emploi, conçue et utilisée sur des cas réels.
+
+**Missions :**
+
+- Conception du produit, du modèle de données et des parcours utilisateurs
+- Développement end-to-end en React / Next.js / TypeScript avec logique serveur et base relationnelle
+- Ajout de fonctions d'assistance IA pour l'import d'offres, l'adaptation de CV et la préparation de brouillons
+- Mise en place de tests automatisés et d'un audit UX desktop/mobile
+
+**Environnement technique :** React, Next.js, TypeScript, Cloudflare D1 / SQLite, Drizzle ORM, Playwright
 
 ### Projet d'ingénierie - Polytech Nice Sophia
 
 **Octobre 2025 - Février 2026 (5 mois)**
 
-**Contexte :** Projet en équipe pour la plateforme GECOS d'Université Côte d'Azur.
-
-**Projet :** Solution de synthèse, de supervision et de routage multicanal des alertes GTB.
+**Projet :** Solution de supervision et de routage multicanal d'alertes GTB.
 
 **Missions :**
 
-- Recueil des besoins auprès des services techniques et évaluation comparative de solutions de gestion d'alertes
-- Conception d'un service conteneurisé et extensible par plugins pour synthétiser et persister les alertes issues d'InfluxDB
-- Mise en œuvre d'un routage multicanal résilient vers Kanboard, Slack, Teams et SMS, avec reprise automatique sur erreur
-- Développement de six plugins PHP pour adapter Kanboard aux processus métier, aux usages terrain et aux retours utilisateurs
+- Conception d'un service conteneurisé et extensible par plugins
+- Intégration d'APIs et routage résilient vers Kanboard, Slack, Teams et SMS
+- Gestion des erreurs avec reprise automatique et adaptation aux besoins utilisateurs
 
-**Environnement technique :** InfluxDB, Flux, SQLite, Telegraf, PHP, Kanboard, Docker, API
+**Environnement technique :** Docker, PHP, API, InfluxDB, SQLite, Kanboard
 
-### Projet académique - Carte multi-fidélité
+### Stage développement IA - DNIIT
 
-**Janvier 2025 - Avril 2025 (4 mois)**
+**Mai 2025 - Août 2025 (4 mois)**
 
-**Projet :** Système distribué de carte de fidélité permettant de gérer partenaires, avantages, transactions et statistiques.
+- Développement en autonomie d'un système prédictif d'alerte incendie
+- Analyse et préparation de données en Python
+- Entraînement et évaluation de modèles Random Forest
+- Développement d'un dashboard React de visualisation des risques
 
-**Missions :**
+**Environnement technique :** Python, React, Random Forest
 
-- Développement d'API REST en Java 21 et Spring Boot pour gérer les cartes, partenaires, avantages, historiques et statistiques
-- Modélisation des entités métier et persistance dans PostgreSQL avec Spring Data JPA
-- Intégration de services externes et déploiement de l'architecture multi-services avec Docker Compose
-- Automatisation des tests JUnit/Cucumber et de la construction des images via une chaîne CI/CD Jenkins
+## Diplômes et certifications
 
-**Environnement technique :** Java 21, Spring Boot, Spring Data JPA, PostgreSQL, Maven, JUnit, Cucumber, Docker, Jenkins
+- 2023 - 2026 : Cycle ingénieur informatique, spécialité Interaction Homme Machine - Polytech Nice Sophia
+- 2025 : TOEIC
+- 2021 - 2023 : CPGE PSI - Lycée Couffignal
 
-### Projet académique - SophiaTech Eats
+## Langues
 
-**Septembre 2024 - Décembre 2024 (4 mois)**
+- Français : Natif
+- Anglais : Courant
+- Allemand : Intermédiaire
 
-**Projet :** Application de restauration permettant de rechercher des restaurants, composer des commandes et appliquer des offres selon le profil client.
+## Informations complémentaires
 
-**Missions :**
-
-- Contribution à une interface Angular 18 structurée en composants, services et modèles pour les parcours d'authentification, de recherche et de commande
-- Développement d'un backend Java 17 découpé en services d'authentification, de commande et de paiement derrière une passerelle HTTP
-- Implémentation d'API JSON, de l'authentification JWT et de stratégies métier pour les offres étudiantes, de fidélité et d'happy hour
-- Responsabilité QA avec scénarios BDD Cucumber et tests unitaires JUnit/Mockito intégrés au workflow GitHub Actions
-
-**Environnement technique :** Angular 18, TypeScript, Java 17, Maven, API REST, JWT, Cucumber, JUnit, Mockito, GitHub Actions
+- Permis B
+- Responsable de la filière SI et IHM (2024 - 2026)
+- Disponible pour un poste remote en Europe
