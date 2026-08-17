@@ -3,6 +3,7 @@ const PROFILES = Object.freeze({
   frontend: "content-frontend.md",
   fullstack: "content-fullstack.md",
   "java-angular": "content-java-angular.md",
+  "capgemini-java-fullstack": "content-capgemini-java-fullstack.md",
   gsf: "content-gsf.md",
 });
 
@@ -33,6 +34,7 @@ const PROFILE_LABELS = Object.freeze({
   frontend: "frontend",
   fullstack: "fullstack",
   "java-angular": "Java / Angular",
+  "capgemini-java-fullstack": "Capgemini Java / Fullstack",
   gsf: "gsf",
 });
 

@@ -4,10 +4,6 @@ Jeune diplômé de Polytech Nice Sophia spécialisé en Interaction Homme-Machin
 
 ## Profil
 
-## Positionnement
-
-Développement logiciel, solutions digitales, IA appliquée et IHM : conception d'interfaces métier, intégration de fonctionnalités IA, automatisation de processus et mise en place de mécanismes d'évaluation, de traçabilité et d'amélioration continue.
-
 - **Nom :** Maxence Roques
 - **Téléphone :** [06 67 70 20 14](tel:+33667702014)
 - **E-mail :** [maxenceroques67@gmail.com](mailto:maxenceroques67@gmail.com)
@@ -30,7 +26,6 @@ Développement logiciel, solutions digitales, IA appliquée et IHM : conception 
 
 - React
 - Angular
-- JavaScript
 - TypeScript
 - Node.js
 - Java
@@ -40,16 +35,10 @@ Développement logiciel, solutions digitales, IA appliquée et IHM : conception 
 
 ### IA et automatisation
 
-- API Mistral AI
-- Mistral Batch
 - Prompt engineering
-- Evaluation de sorties LLM et LLM-as-a-Judge
 - Benchmarks et juges automatisés
-- Datasets de tests et tests de non-régression IA
 - Versionnement et traçabilité de configurations IA
-- Random Forest
 - Analyse de données
-- n8n
 - Automatisation de processus métiers
 
 ### Intégration & systèmes
@@ -130,7 +119,7 @@ Développement logiciel, solutions digitales, IA appliquée et IHM : conception 
 
 **Missions :**
 
-- Préparation des données et entraînement de modèles Random Forest pour prédire les départs de feu
+- Préparation des données et entraînement de modèles Random Forest, LSTM et YOLO pour prédire les départs de feu
 - Création de tableaux de bord React pour visualiser et suivre les niveaux de risque
 
 **Environnement technique :** Python, React, Random Forest
