@@ -51,12 +51,11 @@
 }
 
 :root[data-layout="single"] section[aria-labelledby="experiences"] article {
-  grid-template-columns: minmax(0, 1fr) auto;
+  display: block;
 }
 
 :root[data-layout="single"] section[aria-labelledby="experiences"] article h3 {
-  grid-column: 1;
-  grid-row: 1;
+  display: block;
 }
 
 :root[data-layout="single"] .profile-photo {
@@ -67,13 +66,43 @@
   grid-template-columns: 1fr;
 }
 
+/* ATS: aucune grille, carte ou information présentée côte à côte. */
+:root[data-layout="single"] main {
+  display: block;
+}
+
+:root[data-layout="single"] main > section {
+  display: block;
+  margin-bottom: 16px;
+}
+
+:root[data-layout="single"] dl {
+  display: block;
+}
+
+:root[data-layout="single"] dl > div {
+  display: block;
+  margin: 0 0 6px;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+
+:root[data-layout="single"] dt,
+:root[data-layout="single"] dd {
+  display: inline;
+}
+
+:root[data-layout="single"] dt::after {
+  content: " : ";
+}
+
 :root[data-layout="single"] section[aria-labelledby="experiences"]
   article
   > p:first-of-type {
-  grid-column: 2;
-  grid-row: 1;
   text-align: left;
-  white-space: nowrap;
+  white-space: normal;
 }
 
 :root[data-style="minimal"] {
@@ -788,8 +817,12 @@ article li {
   }
 
   :root[data-layout="single"] main {
-    gap: 15px 42px;
+    display: block;
     padding: 14px 42px 18px;
+  }
+
+  :root[data-layout="single"] main > section {
+    margin-bottom: 11px;
   }
 
   :root[data-layout="single"] main h2 {
