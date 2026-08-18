@@ -8,7 +8,7 @@ import { chromium } from "playwright";
 
 const ROOT_DIRECTORY = path.dirname(fileURLToPath(import.meta.url));
 const HOST = process.env.HOST || "0.0.0.0";
-const PORT = Number(process.env.PORT) || 3000;
+const PORT = Number(process.env.PORT) || 3009;
 
 const PROFILES = new Set(["fullstack-ia-ihm", "java-angular", "saas-automation", "fullstack-en"]);
 const STYLES = new Set(["tech", "elegant", "ocean", "executive", "minimal"]);

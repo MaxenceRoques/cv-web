@@ -25,7 +25,7 @@ npx playwright install chromium
 npm start
 ```
 
-Ouvrir `http://localhost:3000`, choisir le profil, le style et la mise en page, puis cliquer sur **Exporter en PDF**. Le mode « Une colonne (ATS) » masque la photo et utilise une seule colonne.
+Ouvrir `http://localhost:3009`, choisir le profil, le style et la mise en page, puis cliquer sur **Exporter en PDF**. Le mode « Une colonne (ATS) » masque la photo et utilise une seule colonne.
 
 Pour générer et contrôler les quatre versions visuelles et les quatre versions ATS :
 
