@@ -28,11 +28,11 @@ try {
       await page.goto(`http://127.0.0.1:${port}/?${query}`, { waitUntil: "networkidle" });
       const isLinear = await page.evaluate(() => [
         getComputedStyle(document.querySelector("main")).display,
-        getComputedStyle(document.querySelector("dl")).display,
         getComputedStyle(document.querySelector("article")).display,
       ].every((display) => display === "block"));
+      const hasSkillCards = await page.evaluate(() => getComputedStyle(document.querySelector("dl")).display === "grid");
       await page.close();
-      if (!isLinear) throw new Error(`${profile}/single n’utilise pas une mise en page ATS strictement linéaire.`);
+      if (!isLinear || !hasSkillCards) throw new Error(`${profile}/single n’applique pas la mise en page ATS attendue.`);
     }
     console.log(`OK · ${profile}${suffix || ""} · 1 page A4`);
   }
