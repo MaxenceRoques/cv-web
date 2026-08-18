@@ -21,7 +21,7 @@ export const masterProfile = Object.freeze({
     "2021 – 2023 · PSI preparatory class — Lycée Couffignal",
   ],
   languagesEn: ["French: native", "English: fluent", "German: intermediate"],
-  additionalEn: ["Driving licence (B)", "Head of the IS and HCI student track (2024 – 2026)"],
+  additionalEn: ["Driving licence (B)", "Student representative for the Information Systems and HCI track (2024 – 2026)"],
   additional: ["Permis B", "Responsable de la filière SI et IHM (2024 – 2026)"],
   skills: {
     frontend: ["React", "TypeScript", "JavaScript", "Angular", "HTML5 / CSS"],

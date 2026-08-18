@@ -145,7 +145,7 @@ html {
   color: var(--ink);
   background: var(--page);
   font-family: var(--body-font);
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.38;
   text-rendering: optimizeLegibility;
 }
@@ -308,7 +308,7 @@ header p {
 
 .profile-details li {
   color: var(--ink-soft);
-  font-size: 0.87rem;
+  font-size: 0.94rem;
   line-height: 1.2;
 }
 
@@ -360,7 +360,7 @@ main h3 {
 main h4 {
   margin-bottom: 2px;
   color: var(--accent);
-  font-size: 0.92rem;
+  font-size: 0.96rem;
   font-family: var(--heading-font);
 }
 
@@ -720,7 +720,7 @@ article li {
   }
 
   html {
-    font-size: 15px;
+    font-size: 16px;
     background: #ffffff;
   }
 
