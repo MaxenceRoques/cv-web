@@ -1,0 +1,52 @@
+export const masterProfile = Object.freeze({
+  person: {
+    name: "Maxence Roques",
+    phone: "+33667702014",
+    phoneLabel: "06 67 70 20 14",
+    email: "maxenceroques67@gmail.com",
+    linkedin: "https://www.linkedin.com/in/maxence-roques/",
+    github: "https://github.com/MaxenceRoques",
+    portfolio: "https://maxenceroques.github.io/portfolio/",
+    photo: "assets/portrait-maxence.jpg",
+  },
+  education: [
+    "2023 – 2026 · Cycle ingénieur informatique, spécialité Interaction Homme-Machine — Polytech Nice Sophia",
+    "2025 · TOEIC — Polytech Nice Sophia",
+    "2021 – 2023 · CPGE PSI — Lycée Couffignal",
+  ],
+  languages: ["Français : natif", "Anglais : courant", "Allemand : intermédiaire"],
+  additional: ["Permis B", "Responsable de la filière SI et IHM (2024 – 2026)"],
+  skills: {
+    frontend: ["React", "TypeScript", "JavaScript", "Angular", "HTML5 / CSS"],
+    backend: ["Node.js", "Java 17/21", "Spring Boot", "Spring Data JPA", "API REST", "Python", "PHP"],
+    ai: ["Mistral AI", "n8n", "évaluation LLM", "jeux de tests", "Mistral Batch", "Random Forest"],
+    systems: ["WebSocket", "Kafka", "Redis", "PostgreSQL", "Docker", "InfluxDB", "SQLite"],
+    quality: ["JUnit", "Mockito", "Cucumber", "GitHub Actions", "Jenkins", "Playwright"],
+    product: ["Conception centrée utilisateur", "Accessibilité", "Entretiens utilisateurs", "Documentation"],
+  },
+  entries: {
+    nextsourcia: {
+      title: "Développeur full-stack IA — Nextsourcia", date: "Mars – juillet 2026 · 5 mois",
+      context: "Stage de fin d’études · Plateforme SaaS RH réunissant gestion opérationnelle, pilotage et assistance par IA.",
+      bullets: {
+        product: ["Conçu des interfaces de pilotage permettant aux équipes de visualiser des données métier en temps réel, alimentées par WebSocket, Kafka et Redis.", "Structuré le cycle de vie de près de 50 configurations IA — versionnement, publication, déploiement, rollback et synchronisation — afin de faire évoluer prompts et modèles de manière traçable.", "Mis en place une chaîne d’évaluation pré-production orchestrée par n8n, combinant jeux de tests, traitements Mistral Batch, benchmarks et juges LLM automatisés.", "Fait évoluer les chaînes d’enrichissement documentaire et de scoring à partir des cas d’erreur et des retours utilisateur disponibles."],
+        saas: ["Conçu des interfaces de pilotage temps réel alimentées par WebSocket, Kafka et Redis.", "Structuré le cycle de vie de près de 50 configurations IA — versionnement, publication, déploiement, rollback et synchronisation — pour une évolution traçable des prompts et modèles.", "Mis en place une chaîne d’évaluation pré-production orchestrée par n8n avec jeux de tests, Mistral Batch, benchmarks et juges LLM."],
+        en: ["Built real-time operational dashboards backed by WebSocket, Kafka and Redis.", "Structured the lifecycle of nearly 50 AI configurations: versioning, publishing, deployment, rollback and synchronization.", "Set up a pre-production evaluation workflow with n8n, test datasets, Mistral Batch, benchmarks and automated LLM judges."],
+      }, tech: "React, Node.js, Mistral AI, n8n, WebSocket, Kafka, Redis, Zod",
+    },
+    gtb: {
+      title: "Projet d’ingénierie — Polytech Nice Sophia / Université Côte d’Azur", date: "Oct. 2025 – fév. 2026 · 5 mois",
+      context: "Projet d’équipe pour GECOS : supervision et routage multicanal des alertes GTB.",
+      bullets: { default: ["Recueilli les besoins des équipes techniques afin de définir un routage d’alertes compatible avec leurs outils opérationnels.", "Développé un service Docker extensible par plugins pour centraliser, synthétiser et persister les alertes provenant d’InfluxDB.", "Intégré un routage résilient vers Kanboard, Slack, Teams et SMS, avec mécanisme de reprise sur erreur.", "Développé six plugins PHP pour adapter Kanboard aux processus métier et aux retours des utilisateurs."], en: ["Gathered technical-team needs to define alert routing compatible with operational tools.", "Built a Docker service extensible through plugins to centralize, summarize and persist InfluxDB alerts.", "Integrated resilient routing to Kanboard, Slack, Teams and SMS with error recovery."] },
+      tech: "InfluxDB, Flux, SQLite, Telegraf, PHP, Kanboard, Docker, API",
+    },
+    dniit: {
+      title: "Stage développement IA — DNIIT", date: "Mai – août 2025 · 4 mois",
+      context: "Stage au Vietnam, mené en autonomie sur un système prédictif d’alerte incendie.",
+      bullets: { default: ["Préparé les données et entraîné des modèles Random Forest pour estimer le risque de départ de feu.", "Développé un tableau de bord React rendant les niveaux de risque lisibles et exploitables."], en: ["Prepared data and trained Random Forest models to estimate wildfire risk.", "Built a React dashboard making risk levels readable and actionable."] }, tech: "Python, React, Random Forest",
+    },
+    juno: { title: "Projet personnel — Juno", date: "2026", context: "Application full-stack de suivi de recherche d’emploi, conçue et utilisée sur des cas réels.", bullets: { default: ["Conçu le produit, le modèle de données et les parcours utilisateurs.", "Développé l’application de bout en bout avec React / Next.js / TypeScript, logique serveur et base relationnelle.", "Ajouté des fonctions d’assistance IA pour l’import d’offres, l’adaptation de CV et la préparation de brouillons.", "Mis en place des tests automatisés et un audit UX desktop/mobile."], en: ["Designed the product, data model and user journeys for a job-search tracking application.", "Developed it end-to-end with React, Next.js, TypeScript, server logic and a relational database.", "Added AI-assisted job import, CV tailoring and draft-preparation features, plus automated tests and a desktop/mobile UX audit."] }, tech: "React, Next.js, TypeScript, Cloudflare D1 / SQLite, Drizzle ORM, Playwright" },
+    loyalty: { title: "Projet académique — Carte multi-fidélité", date: "Jan. – avr. 2025 · 4 mois", context: "Système distribué de carte de fidélité : partenaires, avantages, transactions et statistiques.", bullets: { default: ["Développé des API REST en Java 21 et Spring Boot pour gérer cartes, partenaires, avantages, historiques et statistiques.", "Modélisé les entités métier et leur persistance dans PostgreSQL avec Spring Data JPA.", "Automatisé les tests JUnit/Cucumber et la construction des images via une chaîne CI/CD Jenkins."] }, tech: "Java 21, Spring Boot, Spring Data JPA, PostgreSQL, JUnit, Cucumber, Docker, Jenkins" },
+    eats: { title: "Projet académique — SophiaTech Eats", date: "Sept. – déc. 2024 · 4 mois", context: "Application de restauration : recherche, commande et offres selon le profil client.", bullets: { default: ["Contribué à une interface Angular 18 structurée en composants, services et modèles pour les parcours d’authentification, recherche et commande.", "Développé un backend Java 17 en services d’authentification, commande et paiement derrière une passerelle HTTP.", "Assuré la QA avec scénarios BDD Cucumber et tests JUnit/Mockito intégrés à GitHub Actions."] }, tech: "Angular 18, TypeScript, Java 17, API REST, JWT, Cucumber, JUnit, Mockito, GitHub Actions" },
+  },
+});

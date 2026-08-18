@@ -59,6 +59,14 @@
   grid-row: 1;
 }
 
+:root[data-layout="single"] .profile-photo {
+  display: none;
+}
+
+:root[data-layout="single"] .profile-header {
+  grid-template-columns: 1fr;
+}
+
 :root[data-layout="single"] section[aria-labelledby="experiences"]
   article
   > p:first-of-type {
@@ -213,6 +221,10 @@ header {
   border: 3px solid var(--page);
   border-color: grey;
   box-shadow: 1px 2px 10px rgb(44 31 23 / 18%);
+}
+
+.profile-photo[hidden] {
+  display: none;
 }
 
 header h1,
@@ -470,6 +482,15 @@ article > p:first-of-type {
   margin-bottom: 5px;
   text-align: right;
   white-space: nowrap;
+}
+
+.entry-date {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.tech-stack {
+  font-size: 0.82rem;
 }
 
 article > p:not(:first-of-type),
@@ -789,5 +810,9 @@ article li {
 
   :root[data-layout="single"] article li {
     margin-bottom: 0;
+  }
+
+  :root[data-layout="single"] .profile-photo {
+    display: none;
   }
 }
