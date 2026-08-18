@@ -66,7 +66,7 @@
   grid-template-columns: 1fr;
 }
 
-/* ATS : aucune grille, carte ou information présentée côte à côte. */
+/* ATS : expériences linéaires ; compétences conservées en cartes. */
 :root[data-layout="single"] main {
   display: block;
 }
@@ -74,28 +74,6 @@
 :root[data-layout="single"] main > section {
   display: block;
   margin-bottom: 16px;
-}
-
-:root[data-layout="single"] dl {
-  display: block;
-}
-
-:root[data-layout="single"] dl > div {
-  display: block;
-  margin: 0 0 6px;
-  padding: 0;
-  background: transparent;
-  border: 0;
-  box-shadow: none;
-}
-
-:root[data-layout="single"] dt,
-:root[data-layout="single"] dd {
-  display: inline;
-}
-
-:root[data-layout="single"] dt::after {
-  content: " : ";
 }
 
 :root[data-layout="single"] section[aria-labelledby="experiences"]
