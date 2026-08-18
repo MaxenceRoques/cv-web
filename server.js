@@ -1,5 +1,6 @@
 import { createReadStream } from "node:fs";
 import { stat } from "node:fs/promises";
+import { spawn } from "node:child_process";
 import { createServer } from "node:http";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -12,6 +13,12 @@ const PORT = Number(process.env.PORT) || 3000;
 const PROFILES = new Set(["fullstack-ia-ihm", "java-angular", "saas-automation", "fullstack-en"]);
 const STYLES = new Set(["tech", "elegant", "ocean", "executive", "minimal"]);
 const LAYOUTS = new Set(["multi", "single"]);
+const PROFILE_TITLES = new Map([
+  ["fullstack-ia-ihm", "Développeur full-stack junior — React, Node.js, IA & IHM"],
+  ["java-angular", "Développeur logiciel junior — Java, Spring Boot & Angular"],
+  ["saas-automation", "Ingénieur informatique junior — SaaS, automatisation & outils digitaux"],
+  ["fullstack-en", "Junior Full-Stack Engineer — React, TypeScript & Applied AI"],
+]);
 const PUBLIC_FILES = new Set([
   "index.html",
   "styles.css",
@@ -29,6 +36,20 @@ const MIME_TYPES = {
 };
 
 let browserPromise;
+
+function addPdfMetadata(pdf, title, language) {
+  return new Promise((resolve, reject) => {
+    const process = spawn("python", [path.join(ROOT_DIRECTORY, "scripts", "pdf-metadata.py"), Buffer.from(title).toString("base64"), Buffer.from(language).toString("base64")]);
+    const output = [];
+    const errors = [];
+    process.stdout.on("data", (chunk) => output.push(chunk));
+    process.stderr.on("data", (chunk) => errors.push(chunk));
+    process.stdin.on("error", () => {});
+    process.on("error", reject);
+    process.on("close", (code) => code === 0 ? resolve(Buffer.concat(output)) : reject(new Error(Buffer.concat(errors).toString() || "Métadonnées PDF indisponibles.")));
+    process.stdin.end(pdf);
+  });
+}
 
 function getBrowser() {
   if (!browserPromise) {
@@ -128,7 +149,12 @@ const server = createServer(async (request, response) => {
     const layout = LAYOUTS.has(requestedLayout) ? requestedLayout : "multi";
 
     try {
-      const pdf = await generatePdf(profile, style, layout);
+      const title = PROFILE_TITLES.get(profile);
+      const pdf = await addPdfMetadata(
+        await generatePdf(profile, style, layout),
+        title,
+        profile === "fullstack-en" ? "English" : "French",
+      );
       const layoutSuffix = layout === "single" ? "-ats" : "";
       const filename = `cv-maxence-roques-${profile}${layoutSuffix}.pdf`;
 
