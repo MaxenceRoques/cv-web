@@ -11,13 +11,13 @@ export const masterProfile = Object.freeze({
   },
   education: [
     "2023 – 2026 · Cycle ingénieur informatique, spécialité Interaction Homme-Machine — Polytech Nice Sophia",
-    "2025 · TOEIC — Polytech Nice Sophia",
+    "2025 · TOEIC : 970/990 — Polytech Nice Sophia",
     "2021 – 2023 · CPGE PSI — Lycée Couffignal",
   ],
   languages: ["Français : natif", "Anglais : courant", "Allemand : intermédiaire"],
   educationEn: [
     "2023 – 2026 · Engineering degree in Computer Science, Human-Computer Interaction specialization — Polytech Nice Sophia",
-    "2025 · TOEIC — Polytech Nice Sophia",
+    "2025 · TOEIC: 970/990 — Polytech Nice Sophia",
     "2021 – 2023 · PSI preparatory class — Lycée Couffignal",
   ],
   languagesEn: ["French: native", "English: fluent", "German: intermediate"],
