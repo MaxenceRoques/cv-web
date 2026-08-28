@@ -7,20 +7,17 @@ import { chromium } from "playwright";
 
 const ROOT_DIRECTORY = path.dirname(fileURLToPath(import.meta.url));
 const HOST = process.env.HOST || "0.0.0.0";
-const PORT = Number(process.env.PORT) || 3000;
+const PORT = Number(process.env.PORT) || 3009;
 
-const PROFILES = new Set(["backend", "frontend", "fullstack", "java-angular", "gsf"]);
+const PROFILES = new Set(["fullstack-ia-ihm", "java-angular", "saas-automation", "fullstack-en"]);
 const STYLES = new Set(["tech", "elegant", "ocean", "executive", "minimal"]);
 const LAYOUTS = new Set(["multi", "single"]);
 const PUBLIC_FILES = new Set([
   "index.html",
   "styles.css",
   "script.js",
-  "content-backend.md",
-  "content-frontend.md",
-  "content-fullstack.md",
-  "content-java-angular.md",
-  "content-gsf.md",
+  "content/master-profile.js",
+  "content/profiles.js",
   "assets/portrait-maxence.jpg",
 ]);
 const MIME_TYPES = {
@@ -57,7 +54,7 @@ async function generatePdf(profile, style, layout) {
     const page = await context.newPage();
     const parameters = new URLSearchParams();
 
-    if (profile !== "fullstack") parameters.set("profil", profile);
+    if (profile !== "fullstack-ia-ihm") parameters.set("profil", profile);
     if (style !== "tech") parameters.set("style", style);
     if (layout !== "multi") parameters.set("layout", layout);
 
@@ -126,14 +123,14 @@ const server = createServer(async (request, response) => {
     const requestedLayout = requestUrl.searchParams.get("layout");
     const profile = PROFILES.has(requestedProfile)
       ? requestedProfile
-      : "fullstack";
+      : "fullstack-ia-ihm";
     const style = STYLES.has(requestedStyle) ? requestedStyle : "tech";
     const layout = LAYOUTS.has(requestedLayout) ? requestedLayout : "multi";
 
     try {
       const pdf = await generatePdf(profile, style, layout);
       const layoutSuffix = layout === "single" ? "-ats" : "";
-      const filename = `cv-maxence-${profile}-${style}${layoutSuffix}.pdf`;
+      const filename = `cv-maxence-roques-${profile}${layoutSuffix}.pdf`;
 
       response.writeHead(200, {
         "Content-Type": "application/pdf",

@@ -7,7 +7,8 @@
     "node": ">=20"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "verify:pdf": "node tests/verify-pdfs.js"
   },
   "dependencies": {
     "playwright": "^1.54.1"

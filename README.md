@@ -1,35 +1,23 @@
-# cv-web
+# Générateur de CV ciblés — Maxence Roques
 
-Tu travailles sur un CV statique en HTML, CSS et JavaScript sans framework.
+Une source de vérité unique génère quatre CV ciblés, chacun disponible en version visuelle et ATS mono-colonne. Le site reste volontairement statique : HTML, CSS, JavaScript et Playwright pour l’export PDF.
 
-Fichiers de référence :
-- assets/curriculum_vitae-3.pdf contient la maquette visuelle à reproduire.
-- MRO(3).docx est le document Word original.
+## Architecture
 
-Objectif :
-Créer une version web fidèle au CV de référence, responsive et imprimable
-sur une seule page A4.
+- `content/master-profile.js` : faits vérifiés, coordonnées, compétences, expériences et formulations disponibles.
+- `content/profiles.js` : sélection et ordre du contenu pour chaque profil ; aucun fait n’y est dupliqué.
+- `content/archive/` : contenus Markdown historiques, conservés pour référence, y compris `content-java-angular2.md`.
+- `exports/` : PDF produits par la vérification locale (ignorés par Git).
+- `tests/verify-pdfs.js` : génère les huit PDF et échoue si l’un comporte plus d’une page.
 
-Contraintes :
-- Créer index.html, styles.css et script.js.
-- Ne pas utiliser Bootstrap, Tailwind, React ou une autre dépendance.
-- Utiliser du HTML sémantique.
-- Conserver l'intégralité du contenu fourni dans content.md.
-- Reproduire la couleur turquoise, les lignes de séparation, la grille de
-  compétences en 3 colonnes et les projets en 2 colonnes.
-- Sur mobile, transformer toutes les grilles en une seule colonne.
-- À l'impression, masquer les contrôles et obtenir exactement une page A4.
-- Le texte doit rester sélectionnable.
-- Les coordonnées doivent utiliser des liens mailto, tel, LinkedIn et GitHub.
-- Ajouter un bouton générant dynamiquement le PDF correspondant au profil et
-  au style sélectionnés.
-- Ne pas inventer de contenu absent des sources.
-- Vérifier qu'il n'y a aucun débordement horizontal.
+## Profils
 
-Commence par analyser les fichiers de référence, puis implémente la première
-version. À la fin, résume les fichiers créés et les choix de mise en page.
+- `fullstack-ia-ihm` : React, Node.js, IA et IHM — français.
+- `java-angular` : Java, Spring Boot et Angular — français.
+- `saas-automation` : SaaS, automatisation et outils digitaux — français.
+- `fullstack-en` : full-stack, TypeScript, Python et IA — anglais.
 
-## Lancement
+## Lancement et PDF
 
 ```sh
 npm install
@@ -37,5 +25,19 @@ npx playwright install chromium
 npm start
 ```
 
-Le site est ensuite disponible sur `http://localhost:3000`. La route
-`/api/pdf` génère les PDF à la demande avec Chromium.
+Ouvrir `http://localhost:3009`, choisir le profil, le style et la mise en page, puis cliquer sur **Exporter en PDF**. Le mode « Une colonne (ATS) » masque la photo et utilise une seule colonne.
+
+Pour générer et contrôler les quatre versions visuelles et les quatre versions ATS :
+
+```sh
+npm run verify:pdf
+```
+
+Les fichiers sont écrits dans `exports/`. Le script inspecte les PDF générés et échoue dès qu’un export ne tient pas sur une page A4.
+
+## Adapter un CV à une offre
+
+1. Modifier seulement `content/master-profile.js` pour ajouter un fait vérifié ou une formulation validée.
+2. Dans `content/profiles.js`, choisir les compétences, expériences et variantes de puces qui correspondent à l’offre.
+3. Réutiliser l’un des quatre profils : ne pas créer un nouveau fichier de contenu dupliqué.
+4. Lancer `npm run verify:pdf` avant l’envoi.
